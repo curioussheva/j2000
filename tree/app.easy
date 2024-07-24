@@ -178,6 +178,11 @@
                                                     {
                                                         "_id_": 1547,
                                                         "_type": "Menu.Item",
+                                                        "checkable": {
+                                                            "_id_": 1952,
+                                                            "_type": "Boolean",
+                                                            "value_": true
+                                                        },
                                                         "title": {
                                                             "_id_": 1548,
                                                             "_type": "String",
@@ -201,10 +206,15 @@
                                                     {
                                                         "_id_": 1537,
                                                         "_type": "Menu.Item",
+                                                        "checkable": {
+                                                            "_id_": 1953,
+                                                            "_type": "Boolean",
+                                                            "value_": true
+                                                        },
                                                         "title": {
                                                             "_id_": 1538,
                                                             "_type": "String",
-                                                            "value_": "Kebatinan dan\n\n Spiritual Ketuhanan\n\n"
+                                                            "value_": "Kebatinan & Spiritual Ketuhanan"
                                                         },
                                                         "action": {
                                                             "_id_": 1539,
@@ -224,10 +234,15 @@
                                                     {
                                                         "_id_": 1527,
                                                         "_type": "Menu.Item",
+                                                        "checkable": {
+                                                            "_id_": 1954,
+                                                            "_type": "Boolean",
+                                                            "value_": true
+                                                        },
                                                         "title": {
                                                             "_id_": 1528,
                                                             "_type": "String",
-                                                            "value_": "Kebatinan dan Spiritual"
+                                                            "value_": "Spiritual & Kebatinan Keris Jawa"
                                                         },
                                                         "action": {
                                                             "_id_": 1529,
@@ -245,12 +260,45 @@
                                                         }
                                                     },
                                                     {
+                                                        "_id_": 1956,
+                                                        "_type": "Menu.Item",
+                                                        "checkable": {
+                                                            "_id_": 1957,
+                                                            "_type": "Boolean",
+                                                            "value_": true
+                                                        },
+                                                        "title": {
+                                                            "_id_": 1958,
+                                                            "_type": "String",
+                                                            "value_": "Benda-Benda Gaib dan Bertuah"
+                                                        },
+                                                        "action": {
+                                                            "_id_": 1959,
+                                                            "_type": "LayoutReference",
+                                                            "ref": {
+                                                                "_id_": 1960,
+                                                                "_type": "String",
+                                                                "value_": "@layout\/page2"
+                                                            }
+                                                        },
+                                                        "id": {
+                                                            "_id_": 1961,
+                                                            "_type": "String",
+                                                            "value_": "page5"
+                                                        }
+                                                    },
+                                                    {
                                                         "_id_": 1196,
                                                         "_type": "Menu.Item",
+                                                        "checkable": {
+                                                            "_id_": 1955,
+                                                            "_type": "Boolean",
+                                                            "value_": true
+                                                        },
                                                         "title": {
                                                             "_id_": 1198,
                                                             "_type": "String",
-                                                            "value_": "Kebatinan dan Spiritual"
+                                                            "value_": "Dunia Gaib dan Mahluk Halus"
                                                         },
                                                         "action": {
                                                             "_id_": 1361,
@@ -264,7 +312,91 @@
                                                         "id": {
                                                             "_id_": 1200,
                                                             "_type": "String",
-                                                            "value_": "page5"
+                                                            "value_": "page6"
+                                                        }
+                                                    },
+                                                    {
+                                                        "_id_": 1968,
+                                                        "_type": "Menu.Item",
+                                                        "checkable": {
+                                                            "_id_": 1969,
+                                                            "_type": "Boolean",
+                                                            "value_": true
+                                                        },
+                                                        "title": {
+                                                            "_id_": 1970,
+                                                            "_type": "String",
+                                                            "value_": "Dongeng Tanah Jawa"
+                                                        },
+                                                        "action": {
+                                                            "_id_": 1971,
+                                                            "_type": "LayoutReference",
+                                                            "ref": {
+                                                                "_id_": 1972,
+                                                                "_type": "String",
+                                                                "value_": "@layout\/page2"
+                                                            }
+                                                        },
+                                                        "id": {
+                                                            "_id_": 1973,
+                                                            "_type": "String",
+                                                            "value_": "page7"
+                                                        }
+                                                    },
+                                                    {
+                                                        "_id_": 1980,
+                                                        "_type": "Menu.Item",
+                                                        "checkable": {
+                                                            "_id_": 1981,
+                                                            "_type": "Boolean",
+                                                            "value_": true
+                                                        },
+                                                        "title": {
+                                                            "_id_": 1982,
+                                                            "_type": "String",
+                                                            "value_": "Artikel Lain-Lain"
+                                                        },
+                                                        "action": {
+                                                            "_id_": 1983,
+                                                            "_type": "LayoutReference",
+                                                            "ref": {
+                                                                "_id_": 1984,
+                                                                "_type": "String",
+                                                                "value_": "@layout\/page2"
+                                                            }
+                                                        },
+                                                        "id": {
+                                                            "_id_": 1985,
+                                                            "_type": "String",
+                                                            "value_": "page8"
+                                                        }
+                                                    },
+                                                    {
+                                                        "_id_": 1992,
+                                                        "_type": "Menu.Item",
+                                                        "checkable": {
+                                                            "_id_": 1993,
+                                                            "_type": "Boolean",
+                                                            "value_": true
+                                                        },
+                                                        "title": {
+                                                            "_id_": 1994,
+                                                            "_type": "String",
+                                                            "value_": "Artikel Oleh Penulis Lain"
+                                                        },
+                                                        "action": {
+                                                            "_id_": 1995,
+                                                            "_type": "LayoutReference",
+                                                            "ref": {
+                                                                "_id_": 1996,
+                                                                "_type": "String",
+                                                                "value_": "@layout\/page2"
+                                                            }
+                                                        },
+                                                        "id": {
+                                                            "_id_": 1997,
+                                                            "_type": "String",
+                                                            "value_": "page9"
                                                         }
                                                     }
                                                 ],
