@@ -501,9 +501,9 @@
                 "_id_": 109,
                 "_type": "ColorResource",
                 "color": {
-                    "_id_": 110,
+                    "_id_": 1025,
                     "_type": "Color",
-                    "color_": -1577239
+                    "color_": -9534570
                 },
                 "name": {
                     "_id_": 111,
@@ -515,9 +515,9 @@
                 "_id_": 112,
                 "_type": "ColorResource",
                 "color": {
-                    "_id_": 113,
+                    "_id_": 1026,
                     "_type": "Color",
-                    "color_": -12367551
+                    "color_": -9534570
                 },
                 "configuration": {
                     "_id_": 114,
