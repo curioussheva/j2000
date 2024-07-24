@@ -114,7 +114,7 @@
                                             "ref": {
                                                 "_id_": 1761,
                                                 "_type": "String",
-                                                "value_": "@drawable\/daftarisi"
+                                                "value_": "@drawable\/daftar_isi"
                                             }
                                         },
                                         "title": {
@@ -134,7 +134,7 @@
                                         "id": {
                                             "_id_": 1765,
                                             "_type": "String",
-                                            "value_": "page2"
+                                            "value_": "daftar_isi"
                                         }
                                     },
                                     {
