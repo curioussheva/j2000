@@ -424,7 +424,7 @@
                         "value": {
                             "_id_": 65,
                             "_type": "Float",
-                            "value_": 300
+                            "value_": 250
                         }
                     },
                     "header": {
