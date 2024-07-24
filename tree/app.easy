@@ -101,6 +101,43 @@
                                         }
                                     },
                                     {
+                                        "_id_": 1730,
+                                        "_type": "Menu.Item",
+                                        "checkable": {
+                                            "_id_": 1759,
+                                            "_type": "Boolean",
+                                            "value_": true
+                                        },
+                                        "icon": {
+                                            "_id_": 1760,
+                                            "_type": "DrawableReference",
+                                            "ref": {
+                                                "_id_": 1761,
+                                                "_type": "String",
+                                                "value_": "@drawable\/daftarisi"
+                                            }
+                                        },
+                                        "title": {
+                                            "_id_": 1762,
+                                            "_type": "String",
+                                            "value_": "Daftar isi"
+                                        },
+                                        "action": {
+                                            "_id_": 1763,
+                                            "_type": "LayoutReference",
+                                            "ref": {
+                                                "_id_": 1764,
+                                                "_type": "String",
+                                                "value_": "@layout\/page2"
+                                            }
+                                        },
+                                        "id": {
+                                            "_id_": 1765,
+                                            "_type": "String",
+                                            "value_": "page2"
+                                        }
+                                    },
+                                    {
                                         "_id_": 321,
                                         "_type": "Menu.Item",
                                         "subMenu": {
@@ -251,7 +288,7 @@
                                         "title": {
                                             "_id_": 325,
                                             "_type": "String",
-                                            "value_": "Daftar isi"
+                                            "value_": "Katagori"
                                         },
                                         "action": {
                                             "_id_": 326,
