@@ -43,7 +43,7 @@
                             "ref": {
                                 "_id_": 12,
                                 "_type": "String",
-                                "value_": "@id\/page1"
+                                "value_": "@id\/home"
                             }
                         },
                         "id": {
