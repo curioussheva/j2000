@@ -165,11 +165,144 @@ function filterFunction() {
   }
 }
 </script>  
+  
+ <script>
+/* When the user clicks on the button,
+toggle between hiding and showing the dropdown content */
+function myFunction1() {
+  document.getElementById("myDropdown1").classList.toggle("show");
+}
 
+function filterFunction1() {
+  const input = document.getElementById("myInput1");
+  const filter = input.value.toUpperCase();
+  const div = document.getElementById("myDropdown1");
+  const a = div.getElementsByTagName("a");
+  for (let i = 0; i < a.length; i++) {
+    txtValue = a[i].textContent || a[i].innerText;
+    if (txtValue.toUpperCase().indexOf(filter) > -1) {
+      a[i].style.display = "";
+    } else {
+      a[i].style.display = "none";
+    }
+  }
+}
+</script>  
+
+ <script>
+/* When the user clicks on the button,
+toggle between hiding and showing the dropdown content */
+function myFunction2() {
+  document.getElementById("myDropdown2").classList.toggle("show");
+}
+
+function filterFunction2() {
+  const input = document.getElementById("myInput2");
+  const filter = input.value.toUpperCase();
+  const div = document.getElementById("myDropdown2");
+  const a = div.getElementsByTagName("a");
+  for (let i = 0; i < a.length; i++) {
+    txtValue = a[i].textContent || a[i].innerText;
+    if (txtValue.toUpperCase().indexOf(filter) > -1) {
+      a[i].style.display = "";
+    } else {
+      a[i].style.display = "none";
+    }
+  }
+}
+</script>  
+
+<script>
+/* When the user clicks on the button,
+toggle between hiding and showing the dropdown content */
+function myFunction3() {
+  document.getElementById("myDropdown3").classList.toggle("show");
+}
+
+function filterFunction3() {
+  const input = document.getElementById("myInput3");
+  const filter = input.value.toUpperCase();
+  const div = document.getElementById("myDropdown3");
+  const a = div.getElementsByTagName("a");
+  for (let i = 0; i < a.length; i++) {
+    txtValue = a[i].textContent || a[i].innerText;
+    if (txtValue.toUpperCase().indexOf(filter) > -1) {
+      a[i].style.display = "";
+    } else {
+      a[i].style.display = "none";
+    }
+  }
+}
+</script>  
+
+<script>
+/* When the user clicks on the button,
+toggle between hiding and showing the dropdown content */
+function myFunction4() {
+  document.getElementById("myDropdown4").classList.toggle("show");
+}
+
+function filterFunction4() {
+  const input = document.getElementById("myInput4");
+  const filter = input.value.toUpperCase();
+  const div = document.getElementById("myDropdown4");
+  const a = div.getElementsByTagName("a");
+  for (let i = 0; i < a.length; i++) {
+    txtValue = a[i].textContent || a[i].innerText;
+    if (txtValue.toUpperCase().indexOf(filter) > -1) {
+      a[i].style.display = "";
+    } else {
+      a[i].style.display = "none";
+    }
+  }
+}
+</script>  
+
+<script>
+/* When the user clicks on the button,
+toggle between hiding and showing the dropdown content */
+function myFunction5() {
+  document.getElementById("myDropdown5").classList.toggle("show");
+}
+
+function filterFunction5() {
+  const input = document.getElementById("myInput5");
+  const filter = input.value.toUpperCase();
+  const div = document.getElementById("myDropdown5");
+  const a = div.getElementsByTagName("a");
+  for (let i = 0; i < a.length; i++) {
+    txtValue = a[i].textContent || a[i].innerText;
+    if (txtValue.toUpperCase().indexOf(filter) > -1) {
+      a[i].style.display = "";
+    } else {
+      a[i].style.display = "none";
+    }
+  }
+}
+</script>  
 
 <h2>Seputar Budaya Kebatinan Jawa</h2>
 
+<div class="dropdown">
+  <button onclick="myFunction()" class="dropbtn">> > ></button>
+   <div id="myDropdown" class="dropdown-content">
+    <input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()">
+    <a href="file:///assets/Seputar Budaya Kebatinan Jawa.html">Seputar Budaya Kebatinan Jawa</a>
+    <a href="file:///assets/Kebatinan dan Agama.html">Kebatinan dan Agama</a>
+    <a href="file:///assets/Mistisisme dan Klenik.html">Mistisisme dan Klenik</a>
+    <a href="file:///assets/Pencarian ‘Kebatinan’ Baru.html">Pencarian ‘Kebatinan’ Baru</a>
+    <a href="file:///assets/Laku Prihatin dan Tirakat.html">Laku Prihatin dan Tirakat</a>
+    <a href="file:///assets/Hari Baik - Hari Buruk.html">Hari Baik - Hari Buruk</a>
+    <a href="file:///assets/Ngobrol JODOH.html">Ngobrol JODOH</a>
+    <a href="file:///assets/Ngobrol 1 Permasalahan Hidup.html">Ngobrol 1 Permasalahan Hidup</a>
+    <a href="file:///assets/Ngobrol 2 Permasalahan Hidup.html">Ngobrol 2 Permasalahan Hidup</a>
+    <a href="file:///assets/Ngobrol 3 Permasalahan Hidup.html">Ngobrol 3 Permasalahan Hidup</a>
+    <a href="file:///assets/Ngobrol 4 Permasalahan Hidup.html">Ngobrol 4 Permasalahan Hidup</a>
 
+  </div>
+</div>
+ 
+/*  
 <ul>
 <a href="file:///assets/Seputar Budaya Kebatinan Jawa.html">Seputar Budaya Kebatinan Jawa</a>
 <li>
@@ -194,6 +327,607 @@ Ngobrol 3 Permasalahan Hidup
 Ngobrol 4 Permasalahan Hidup
 </li> 
 </ul>
+*/
+<h2>Kebatinan dan Spiritual</h2>
 
+<div class="dropdown1">
+  <button onclick="myFunction1()" class="dropbtn1">> > ></button>
+  <div id="myDropdown1" class="dropdown1-content">
+    <input type="text" placeholder="Search.." id="myInput1" onkeyup="filterFunction1()">
+    <a href="file:///assets/Kebatinan dan Spiritual.html">Kebatinan dan Spiritual</a>
+    <a href="file:///assets/Kanuragan & Tenaga Dalam.html">Kanuragan & Tenaga Dalam</a>
+    <a href="file:///assets/Olah Rasa dan Kebatinan.html">Olah Rasa dan Kebatinan</a>
+    <a href="file:///assets/Olah Batin dan Kebatinan.html">Olah Batin dan Kebatinan</a>
+    <a href="file:///assets/Ilmu Gaib dan Ilmu Khodam.html">Ilmu Gaib dan Ilmu Khodam</a>
+    <a href="file:///assets/Olah Sukma dan Kebatinan.html">Olah Sukma dan Kebatinan</a>
+    <a href="file:///assets/Terawangan / Melihat Gaib.html">Terawangan / Melihat Gaib</a>
+    <a href="file:///assets/Olah Spiritual dan Kebatinan.html">Olah Spiritual dan Kebatinan</a>
+    <a href="file:///assets/Olah Roh, Manunggaling Kawula Lan Gusti.html">Olah Roh, Manunggaling Kawula Lan Gusti</a>
+    <a href="file:///assets/Kebatinan Dalam Keagamaan.html">Kebatinan Dalam Keagamaan</a>
+    <a href="file:///assets/Sedulur Papat Kalima Pancer.html">Sedulur Papat Kalima Pancer</a>
+    <a href="file:///assets/Sedulur Papat Yang Terpisah.html">Sedulur Papat Yang Terpisah</a>
+    <a href="file:///assets/Sejatinya Manusia.html">Sejatinya Manusia</a>
+    <a href="file:///assets/Sukma Sejati.html">Sukma Sejati</a>
+    <a href="file:///assets/Aku dan Guru Sejati.html">Aku dan Guru Sejati</a>
+    <a href="file:///assets/Aku, Sejatinya Aku, dan Sukma Sejati.html">Aku, Sejatinya Aku, dan Sukma Sejati</a>  
+    <a href="file:///assets/Kebatinan dan Kanuragan.html">Kebatinan dan Kanuragan</a>
+    <a href="file:///assets/Kesaktian Manusia.html">Kesaktian Manusia</a>
+    <a href="file:///assets/Belajar Keilmuan Batin.html">Belajar Keilmuan Batin</a>
+    <a href="file:///assets/Kekhawatiran Melihat Gaib.html">Kekhawatiran Melihat Gaib</a>
+    <a href="file:///assets/Efek Negatif Ilmu Kebatinan ?.html">Efek Negatif Ilmu Kebatinan ?</a>
+    <a href="file:///assets/Gila Karena Ilmu Kebatinan ?.html">Gila Karena Ilmu Kebatinan ?</a>
+    <a href="file:///assets/Ilmu / Rajah Kalacakra.html">Ilmu / Rajah Kalacakra</a>
+    <a href="file:///assets/MEDITASI ENERGI.html">MEDITASI ENERGI</a>
+    <a href="file:///assets/Energi Alam dan Meditasi.html">Energi Alam dan Meditasi</a>
+    <a href="file:///assets/Tempat-tempat Mistis.html">Tempat-tempat Mistis</a>
+    <a href="file:///assets/Ngobrol 1.html">Ngobrol 1</a>
+    <a href="file:///assets/Ngobrol 2.html">Ngobrol 2</a>
+    <a href="file:///assets/Ngobrol 3.html">Ngobrol 3</a>
+    <a href="file:///assets/Ngobrol 4.html">Ngobrol 4</a>
+    <a href="file:///assets/Ngobrol 5.html">Ngobrol 5</a>
+    <a href="file:///assets/Ngobrol 6.html">Ngobrol 6</a>
+    <a href="file:///assets/Ngobrol Pantangan Ilmu.html">Ngobrol Pantangan Ilmu</a>
+    <a href="file:///assets/Ngobrol Belajar Keilmuan Gaib.html">Ngobrol Belajar Keilmuan Gaib</a>
+    <a href="file:///assets/Ngobrol 1 Melihat Gaib.html">Ngobrol 1 Melihat Gaib</a>
+    <a href="file:///assets/Ngobrol 2 Melihat Gaib.html">Ngobrol 2 Melihat Gaib</a>
+    <a href="file:///assets/Ngobrol 3 Melihat Gaib.html">Ngobrol 3 Melihat Gaib</a>
+    <a href="file:///assets/Ngobrol 4 Melihat Gaib.html">Ngobrol 4 Melihat Gaib</a>
+    <a href="file:///assets/Ngobrol 1 Kebatinan-Kegaiban.html">Ngobrol 1 Kebatinan-Kegaiban</a>
+    <a href="file:///assets/Ngobrol 2 Kebatinan-Kegaiban.html">Ngobrol 2 Kebatinan-Kegaiban</a>
+    <a href="file:///assets/Ngobrol 3 Kebatinan-Kegaiban.html">Ngobrol 3 Kebatinan-Kegaiban</a>
+    <a href="file:///assets/Ngobrol 4 Kebatinan-Kegaiban.html">Ngobrol 4 Kebatinan-Kegaiban</a>
+    <a href="file:///assets/Ngobrol 5 Kebatinan-Kegaiban.html">Ngobrol 5 Kebatinan-Kegaiban</a>
+    <a href="file:///assets/Ngobrol 6 Kebatinan-Kegaiban.html">Ngobrol 6 Kebatinan-Kegaiban</a>
+    <a href="file:///assets/Ngobrol 7 Kebatinan-Kegaiban.html">Ngobrol 7 Kebatinan-Kegaiban</a>
+    <a href="file:///assets/Ngobrol 8 Kebatinan-Kegaiban.html">Ngobrol 8 Kebatinan-Kegaiban</a>    
+    <a href="file:///assets/Ngobrol 9 Kebatinan-Kegaiban.html">Ngobrol 9 Kebatinan-Kegaiban</a>
+    <a href="file:///assets/Ngobrol 10 Kebatinan-Kegaiban.html">Ngobrol 10 Kebatinan-Kegaiban</a>
+    <a href="file:///assets/Ngobrol 11 Kebatinan-Kegaiban.html">Ngobrol 11 Kebatinan-Kegaiban</a>    
+  </div>
+</div>
+
+/*
+<ul>
+Kebatinan dan Spiritual
+<li>
+Kanuragan & Tenaga Dalam
+</li> <li>
+Olah Rasa dan Kebatinan
+</li> <li>
+Olah Batin dan Kebatinan
+</li> <li>
+Ilmu Gaib dan Ilmu Khodam
+</li> <li>
+Olah Sukma dan Kebatinan
+</li> <li>
+Terawangan / Melihat Gaib
+</li> <li>
+Olah Spiritual dan Kebatinan
+</li> <li>
+Olah Roh, Manunggaling Kawula Lan Gusti
+</li> <li>
+Kebatinan Dalam Keagamaan
+</li> <li>
+Sedulur Papat Kalima Pancer
+</li> <li>
+Sedulur Papat Yang Terpisah
+</li> <li>
+Sejatinya Manusia
+</li> <li>
+Sukma Sejati
+</li> <li>
+Aku dan Guru Sejati
+</li> <li>
+Aku, Sejatinya Aku, dan Sukma Sejati
+</li> <li>
+Kebatinan dan Kanuragan
+</li> <li>
+Kesaktian Manusia
+</li> <li>
+Belajar Keilmuan Batin
+</li> <li>
+Kekhawatiran Melihat Gaib
+</li> <li>
+Efek Negatif Ilmu Kebatinan ?
+</li> <li>
+Gila Karena Ilmu Kebatinan ?
+</li> <li>
+Ilmu / Rajah Kalacakra
+</li> <li>
+MEDITASI ENERGI
+</li> <li>
+Energi Alam dan Meditasi
+</li> <li>
+Tempat-tempat Mistis
+</li> <li>
+Ngobrol 1
+</li> <li>
+Ngobrol 2
+</li> <li>
+Ngobrol 3
+</li> <li>
+Ngobrol 4
+</li> <li>
+Ngobrol 5
+</li> <li>
+Ngobrol 6
+</li> <li>
+Ngobrol Pantangan Ilmu
+</li> <li>
+Ngobrol Belajar Keilmuan Gaib
+</li> <li>
+Ngobrol 1 Melihat Gaib
+</li> <li>
+Ngobrol 2 Melihat Gaib
+</li> <li>
+Ngobrol 3 Melihat Gaib
+</li> <li>
+Ngobrol 4 Melihat Gaib
+</li> <li>
+Ngobrol 1 Kebatinan-Kegaiban
+</li> <li>
+Ngobrol 2 Kebatinan-Kegaiban
+</li> <li>
+Ngobrol 3 Kebatinan-Kegaiban
+</li> <li>
+Ngobrol 4 Kebatinan-Kegaiban
+</li> <li>
+Ngobrol 5 Kebatinan-Kegaiban
+</li> <li>
+Ngobrol 6 Kebatinan-Kegaiban
+</li> <li>
+Ngobrol 7 Kebatinan-Kegaiban
+</li> <li>
+Ngobrol 8 Kebatinan-Kegaiban
+</li> <li>
+Ngobrol 9 Kebatinan-Kegaiban
+</li> <li>
+Ngobrol 10 Kebatinan-Kegaiban
+</li> <li>
+Ngobrol 11 Kebatinan-Kegaiban
+</li> </ul>
+*/
+<h2>Kebatinan & Spiritual Ketuhanan</h2>
+
+<div class="dropdown2">
+  <button onclick="myFunction2()" class="dropbtn2">> > ></button>
+   <div id="myDropdown2" class="dropdown-content">
+    <input type="text" placeholder="Search.." id="myInput2" onkeyup="filterFunction2()">
+    <a href="file:///assets/Kebatinan & Spiritual Ketuhanan.html">Kebatinan & Spiritual Ketuhanan</a>
+    <a href="file:///assets/Spiritualitas Ketuhanan 1.html">Spiritualitas Ketuhanan 1</a>
+    <a href="file:///assets/Spiritualitas Ketuhanan 2.html">Spiritualitas Ketuhanan 2</a>
+    <a href="file:///assets/Jiwa Yang Sepuh 1.html">Jiwa Yang Sepuh 1</a>
+    <a href="file:///assets/Jiwa Yang Sepuh 2.html">Jiwa Yang Sepuh 2</a>
+    <a href="file:///assets/Ngobrol 1 Spiritual Ketuhanan.html">Ngobrol 1 Spiritual Ketuhanan</a>
+    <a href="file:///assets/Ngobrol 2 Spiritual Ketuhanan.html">Ngobrol 2 Spiritual Ketuhanan</a>
+    <a href="file:///assets/Ngobrol 3 Spiritual Ketuhanan.html">Ngobrol 3 Spiritual Ketuhanan</a>
+    <a href="file:///assets/Ngobrol 4 Spiritual Ketuhanan.html">Ngobrol 4 Spiritual Ketuhanan</a>
+    <a href="file:///assets/Ngobrol 5 Spiritual Ketuhanan.html">Ngobrol 5 Spiritual Ketuhanan</a>
+    <a href="file:///assets/Ngobrol 6 Spiritual Ketuhanan.html">Ngobrol 6 Spiritual Ketuhanan</a>
+    <a href="file:///assets/Ngobrol 7 Spiritual Ketuhanan.html">Ngobrol 7 Spiritual Ketuhanan</a>
+    <a href="file:///assets/Ngobrol 8 Spiritual Ketuhanan.html">Ngobrol 8 Spiritual Ketuhanan</a>
+    
+
+  </div>
+</div>
+/*
+<ul>
+Kebatinan & Spiritual Ketuhanan
+<li>
+Spiritualitas Ketuhanan 1
+</li> <li>
+Spiritualitas Ketuhanan 2
+</li> <li>
+Jiwa Yang Sepuh 1
+</li> <li>
+Jiwa Yang Sepuh 2
+</li> <li>
+Ngobrol 1 Spiritual Ketuhanan
+</li> <li>
+Ngobrol 2 Spiritual Ketuhanan
+</li> <li>
+Ngobrol 3 Spiritual Ketuhanan
+</li> <li>
+Ngobrol 4 Spiritual Ketuhanan
+</li> <li>
+Ngobrol 5 Spiritual Ketuhanan
+</li> <li>
+Ngobrol 6 Spiritual Ketuhanan
+</li> <li>
+Ngobrol 7 spiritual ketuhanan
+</li> <li>
+Ngobrol 8 Spiritual Ketuhanan
+</li>
+</ul>
+*/
+<h2>Spiritual & Kebatinan Keris Jawa</h2>
+<div class="dropdown3">
+  <button onclick="myFunction3()" class="dropbtn3">> > ></button>
+  <div id="myDropdown3" class="dropdown-content">
+    <input type="text" placeholder="Search.." id="myInput3" onkeyup="filterFunction3()">
+    <a href="file:///assets/Spiritual & Kebatinan Keris Jawa.html">Spiritual & Kebatinan Keris Jawa</a>
+    <a href="file:///assets/Gaib Di Dalam Keris Jawa.html">Gaib Di Dalam Keris Jawa</a>
+    <a href="file:///assets/Olah RKeris Jawa dan Empu Keris.html">Keris Jawa dan Empu Keris</a>
+    <a href="file:///assets/Perawatan Keris Jawa.html">Perawatan Keris Jawa</a>
+    <a href="file:///assets/Tata Cara Dalam Perkerisan.html">Tata Cara Dalam Perkerisan</a>
+    <a href="file:///assets/Ilmu Tayuh / Menayuh Keris.html">Ilmu Tayuh / Menayuh Keris</a>
+    <a href="file:///assets/Masalah Keakuratan Menayuh.html">Masalah Keakuratan Menayuh</a>
+    <a href="file:///assets/Arti Mimpi Menayuh Keris.html">Arti Mimpi Menayuh Keris</a>
+    <a href="file:///assets/Karakter-Karakter Keris Jawa.html">Karakter-Karakter Keris Jawa</a>
+    <a href="file:///assets/Status Keris dan Kelas Keris.html">Status Keris dan Kelas Keris</a>
+    <a href="file:///assets/Wahyu Keraton Di Dalam Keris Jawa.html">Wahyu Keraton Di Dalam Keris Jawa</a>
+    <a href="file:///assets/Keris Keningratan.html">Keris Keningratan</a>
+    <a href="file:///assets/Keris Lurus dan Keris Luk.html">Keris Lurus dan Keris Luk</a>
+    <a href="file:///assets/Tuah Keris.html">Tuah Keris</a>
+    <a href="file:///assets/Tuah Keris - Filosofi Dasar.html">Tuah Keris - Filosofi Dasar</a>
+    <a href="file:///assets/Tuah Keris - Jaman Sekarang.html">Tuah Keris - Jaman Sekarang</a>  
+    <a href="file:///assets/Tuah Keris - Jaman Sekarang-2.html">Tuah Keris - Jaman Sekarang-2</a>
+    <a href="file:///assets/Filosofi Tuah Keris Jawa.html">Filosofi Tuah Keris Jawa</a>
+    <a href="file:///assets/Menyatunya Keris dgn Pemilik.html">Menyatunya Keris dgn Pemilik</a>
+    <a href="file:///assets/Mengoptimalkan Fungsi Keris 1.html">Mengoptimalkan Fungsi Keris 1</a>
+    <a href="file:///assets/Mengoptimalkan Fungsi Keris 2.html">Mengoptimalkan Fungsi Keris 2</a>
+    <a href="file:///assets/Mengoptimalkan Fungsi Keris 3.html">Mengoptimalkan Fungsi Keris 3</a>
+    <a href="file:///assets/Ilmu /Pemilik Keris Sebenarnya.html">Pemilik Keris Sebenarnya</a>
+    <a href="file:///assets/Keris Pusaka Orang Tua.html">Keris Pusaka Orang Tua</a>
+    <a href="file:///assets/Keris Tayuhan & Keris Ageman.html">Keris Tayuhan & Keris Ageman</a>
+    <a href="file:///assets/Keris Berhawa Aura Panas.html">Keris Berhawa Aura Panas</a>
+    <a href="file:///assets/Keris Tindih.html">Keris Tindih</a>
+    <a href="file:///assets/Keris Kamardikan.html">Keris Kamardikan</a>
+    <a href="file:///assets/Keris Junjung Derajat.html">Keris Junjung Derajat</a>
+    <a href="file:///assets/Keris Combong dan Keris Pamengkang Jagad.html">Keris Combong dan Keris Pamengkang Jagad</a>
+    <a href="file:///assets/Keris Berpamor Pemilih.html">Keris Berpamor Pemilih</a>
+    <a href="file:///assets/Keris yang Dikosongkan Isinya.html">Keris yang Dikosongkan Isinya</a>
+    <a href="file:///assets/Keris dan Kesaktian.html">Keris dan Kesaktian</a>
+    <a href="file:///assets/Keris Kyai Condong Campur.html">Keris Kyai Condong Campur</a>
+    <a href="file:///assets/Museum Pusaka Taman Mini.html">Museum Pusaka Taman Mini</a>
+    <a href="file:///assets/Pembuatan Keris Bali.html">Pembuatan Keris Bali</a>
+    <a href="file:///assets/Ngobrol - Keris dan Kebatinan.html">Ngobrol - Keris dan Kebatinan</a>
+    <a href="file:///assets/Ngobrol - Keris 1.html">Ngobrol - Keris 1</a>
+    <a href="file:///assets/Ngobrol - Keris 2.html">Ngobrol - Keris 2</a>
+    <a href="file:///assets/Ngobrol - Keris 3.html">Ngobrol - Keris 3</a>
+    <a href="file:///assets/Ngobrol - Keris 4.html">Ngobrol - Keris 4</a>
+    <a href="file:///assets/Ngobrol - Keris 5.html">Ngobrol - Keris 5</a>
+  </div>
+</div>
+/*
+<ul>
+Spiritual & Kebatinan Keris Jawa
+<li>
+Gaib Di Dalam Keris Jawa
+</li> <li>
+Keris Jawa dan Empu Keris
+</li> <li>
+Perawatan Keris Jawa
+</li> <li>
+Tata Cara Dalam Perkerisan
+</li> <li>
+Ilmu Tayuh / Menayuh Keris
+</li> <li>
+Masalah Keakuratan Menayuh
+</li> <li>
+Arti Mimpi Menayuh Keris
+</li> <li>
+Karakter-Karakter Keris Jawa
+</li> <li>
+Status Keris dan Kelas Keris
+</li> <li>
+Wahyu Keraton Di Dalam Keris Jawa
+</li> <li>
+Keris Keningratan
+</li> <li>
+Keris Lurus dan Keris Luk
+</li> <li>
+Tuah Keris
+</li> <li>
+Tuah Keris - Filosofi Dasar
+</li> <li>
+Tuah Keris - Jaman Sekarang
+</li> <li>
+Tuah Keris - Jaman Sekarang-2
+</li> <li>
+Filosofi Tuah Keris Jawa
+</li> <li>
+Menyatunya Keris dgn Pemilik
+</li> <li>
+Mengoptimalkan Fungsi Keris 1
+</li> <li>
+Mengoptimalkan Fungsi Keris 2
+</li> <li>
+Mengoptimalkan Fungsi Keris 3
+</li> <li>
+Pemilik Keris Sebenarnya
+</li> <li>
+Keris Pusaka Orang Tua
+</li> <li>
+Keris Tayuhan & Keris Ageman
+</li> <li>
+Keris Berhawa Aura Panas
+</li> <li>
+Keris Tindih
+</li> <li>
+Keris Kamardikan
+</li> <li>
+Keris Junjung Derajat
+</li> <li>
+Keris Combong dan Keris Pamengkang Jagad
+</li> <li>
+Keris Berpamor Pemilih
+</li> <li>
+Keris yang Dikosongkan Isinya
+</li> <li>
+Keris dan Kesaktian
+</li> <li>
+Keris Kyai Condong Campur
+</li> <li>
+Museum Pusaka Taman Mini
+</li> <li>
+Pembuatan Keris Bali
+</li> <li>
+Ngobrol - Keris dan Kebatinan
+</li> <li>
+Ngobrol - Keris 1
+</li> <li>
+Ngobrol - Keris 2
+</li> <li>
+Ngobrol - Keris 3
+</li> <li>
+Ngobrol - Keris 4
+</li> <li>
+Ngobrol - Keris 5
+</li> </ul>
+*/
+<h2>Benda-Benda Gaib dan Bertuah</h2>
+
+<div class="dropdown4">
+  <button onclick="myFunction4()" class="dropbtn4">> > ></button>
+  <div id="myDropdown4" class="dropdown-content">
+    <input type="text" placeholder="Search.." id="myInput4" onkeyup="filterFunction4()">
+    <a href="file:///assets/Benda-Benda Gaib dan Bertuah.html">Benda-Benda Gaib dan Bertuah</a>
+    <a href="file:///assets/Batu Akik.html">Batu Akik</a>
+    <a href="file:///assets/Mustika.html">Mustika</a>
+    <a href="file:///assets/Kesaktian Mustika.html">Kesaktian Mustika</a>
+    <a href="file:///assets/Benda-benda Bertuah Lain.html">Benda-benda Bertuah Lain</a>
+    <a href="file:///assets/Sesaji.html">Sesaji</a>
+    <a href="file:///assets/Terawangan /Jimat Rajahan & Khodam Isian.html">Jimat Rajahan & Khodam Isian</a>
+    <a href="file:///assets/Mengisi Khodam.html">Mengisi Khodam</a>
+    <a href="file:///assets/Pasar Batu Akik Rawa Bening.html">Pasar Batu Akik Rawa Bening</a>
+    <a href="file:///assets/Ngobrol 1 Benda Gaib.html">Ngobrol 1 Benda Gaib</a>
+    <a href="file:///assets/Ngobrol 2 Benda Gaib.html">Ngobrol 2 Benda Gaib</a>
+    <a href="file:///assets/Ngobrol 3 Benda Gaib.html">Ngobrol 3 Benda Gaib</a>
+    <a href="file:///assets/Ngobrol 4 Benda Gaib.html">Ngobrol 4 Benda Gaib</a>
+    <a href="file:///assets/Ngobrol 5 Benda Gaib.html">Ngobrol 5 Benda Gaib</a>
+  </div>
+</div>
+
+
+
+<ul>
+Benda-Benda Gaib dan Bertuah
+<li>
+Batu Akik
+</li> <li>
+Mustika
+</li> <li>
+Kesaktian Mustika
+</li> <li>
+Benda-benda Bertuah Lain
+</li> <li>
+Sesaji
+</li> <li>
+Jimat Rajahan & Khodam Isian
+</li> <li>
+Mengisi Khodam
+</li> <li>
+Pasar Batu Akik Rawa Bening
+</li> <li>
+Ngobrol 1 Benda Gaib
+</li> <li>
+Ngobrol 2 Benda Gaib
+</li> <li>
+Ngobrol 3 Benda Gaib
+</li> <li>
+Ngobrol 4 Benda Gaib
+</li> <li>
+Ngobrol 5 Benda Gaib
+</li></ul>
+
+
+<h2>Dunia Gaib dan Mahluk Halus</h2>
+
+<div class="dropdown5">
+  <button onclick="myFunction5()" class="dropbtn5">> > ></button>
+  <div id="myDropdown5" class="dropdown-content">
+    <input type="text" placeholder="Search.." id="myInput5" onkeyup="filterFunction5()">
+    
+    <a href="file:///assets/Benda-Benda Gaib dan Bertuah.html">Benda-Benda Gaib dan Bertuah</a>
+    <a href="file:///assets/Batu Akik.html">Batu Akik</a>
+    <a href="file:///assets/Mustika.html">Mustika</a>
+    <a href="file:///assets/Kesaktian Mustika.html">Kesaktian Mustika</a>
+    <a href="file:///assets/Benda-benda Bertuah Lain.html">Benda-benda Bertuah Lain</a>
+    <a href="file:///assets/Sesaji.html">Sesaji</a>
+    <a href="file:///assets/Terawangan /Jimat Rajahan & Khodam Isian.html">Jimat Rajahan & Khodam Isian</a>
+    <a href="file:///assets/Mengisi Khodam.html">Mengisi Khodam</a>
+    <a href="file:///assets/Pasar Batu Akik Rawa Bening.html">Pasar Batu Akik Rawa Bening</a>
+    <a href="file:///assets/Ngobrol 1 Benda Gaib.html">Ngobrol 1 Benda Gaib</a>
+    <a href="file:///assets/Ngobrol 2 Benda Gaib.html">Ngobrol 2 Benda Gaib</a>
+    <a href="file:///assets/Ngobrol 3 Benda Gaib.html">Ngobrol 3 Benda Gaib</a>
+    <a href="file:///assets/Ngobrol 4 Benda Gaib.html">Ngobrol 4 Benda Gaib</a>
+    <a href="file:///assets/Ngobrol 5 Benda Gaib.html">Ngobrol 5 Benda Gaib</a>
+  </div>
+</div>
+
+<ul>
+Dunia Gaib dan Mahluk Halus
+<li>
+Hakekat Wujud Mahluk Halus
+</li> <li>
+Interaksi Mahluk Halus
+</li> <li>
+Rumah Angker / Wingit
+</li> <li>
+Pantangan dan Larangan
+</li> <li>
+Kesaktian Mahluk Halus
+</li> <li>
+Penggolongan Mahluk Halus
+</li> <li>
+Pengaruh Gaib Thd Manusia 1
+</li> <li>
+Pengaruh Gaib Thd Manusia 2
+</li> <li>
+Ketempatan Mahluk Halus 1
+</li> <li>
+Ketempatan Mahluk Halus 2
+</li> <li>
+Ketempatan Mahluk Halus 3
+</li> <li>
+Ketempatan Mahluk Halus 4
+</li> <li>
+Ketempatan Mahluk Halus 5
+</li> <li>
+Pagaran Gaib / Proteksi Diri 1
+</li> <li>
+Pagaran Gaib / Proteksi Diri 2
+</li> <li>
+Pembersihan Gaib 1
+</li> <li>
+Pembersihan Gaib 2
+</li> <li>
+Pembersihan Gaib 3
+</li> <li>
+Pembersihan Gaib 4
+</li> <li>
+Pembersihan Gaib 5
+</li> <li>
+KHODAM
+</li> <li>
+Roh Manusia / Sukma / Arwah
+</li> <li>
+Bangsa Siluman
+</li> <li>
+Bangsa Dedemit
+</li> <li>
+Bangsa Halus Lain-lain
+</li> <li>
+Bangsa Jin
+</li> <li>
+Bangsa Jin Daratan
+</li> <li>
+Bangsa Jin Air dan Jin Udara
+</li> <li>
+Bangsa Buto
+</li> <li>
+Ibu Kanjeng Ratu Kidul
+</li> <li>
+Pusaka & Mustika di Alam Gaib
+</li> <li>
+Setan - Iblis dan Roh Penyesat
+</li> <li>
+Dewa
+</li> <li>
+Dewa dan Wahyu Dewa
+</li> <li>
+Dewa Wisnu & Wahyu Dewa
+</li> <li>
+Dewa dan Tanah Jawa
+</li> <li>
+Dewa dan Satria Piningit - 1
+</li> <li>
+Dewa dan Satria Piningit - 2
+</li> <li>
+Dewa dan Satria Piningit - 3
+</li> <li>
+Dewa dan Satria Piningit - 4
+</li> <li>
+Dewa dan Satria Piningit - 5
+</li> <li>
+Dewa dan Satria Piningit - 6
+</li> <li>
+Dewa dan Satria Piningit / Ratu Adil
+</li> <li>
+Dewa dan Ramalan, Benarkah Manusia Dapat Mendahului Kehendak Tuhan ?
+</li> <li>
+Ngobrol 1
+</li> <li>
+Ngobrol 2
+</li> <li>
+Ngobrol 3
+</li> <li>
+Ngobrol 4
+</li> <li>
+Ngobrol 1 - Khodam
+</li> <li>
+Ngobrol 2 - Khodam
+</li> <li>
+Ngobrol - Ikatan Sukma
+</li> <li>
+Ngobrol - Ramalan
+</li> <li>
+Ngobrol - Putaran Jaman
+</li> <li>
+Ngobrol - Satria Piningit
+</li> <li>
+Ngobrol - Indigo
+</li> <li>
+Ngobrol - Cerita Kegaiban 1
+</li> <li>
+Ngobrol - Cerita Kegaiban 2
+</li> <li>
+Turunnya Wahyu Dewa
+</li> <li>
+Kerajaan Galuh Di Cianjur
+</li> <li>
+BHARATAYUDHA Di Alam Gaib
+</li></ul>
+<ul>
+Dongeng Tanah Jawa
+<li>
+Gajah Mada dan Majapahit
+</li> <li>
+Gajah Mada dan Perang Bubat
+</li> <li>
+Syech Siti Jenar
+</li> <li>
+Jaka Tingkir
+</li> <li>
+Jaka Tingkir - Arya Penangsang
+</li> <li>
+Arya Penangsang - Sutawijaya
+</li> <li>
+Wafatnya Sultan Adiwijaya
+</li> <li>
+Panembahan Senopati
+</li></ul>
+<ul>
+Artikel Lain-Lain
+<li>
+Penyebab Awal Sakit-Penyakit
+</li> <li>
+Sistem Kasta Di Masyarakat
+</li> <li>
+Imperialisme - Kolonialisme
+</li> <li>
+Liberalisme
+</li> <li>
+Kapitalisme - Sosialisme - Komunisme
+</li> <li>
+Negara Agama - Sekularisme
+</li></ul>
+<ul>
+Artikel Oleh Penulis Lain
+<li>
+Pengalaman Memiliki Keris
+</li> <li>
+Keris Tayuhan & Keris Ageman
+</li> <li>
+Nguri-Uri Budaya
+</li> <li>
+Keris Kamardikan
+</li> <li>
+Bahan Material Keris
+</li> <li>
+Pemindahtanganan & Mahar Keris
+</li></ul>
+Related
 </body>
 </html>
