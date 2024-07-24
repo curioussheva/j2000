@@ -72,13 +72,13 @@
                                             "value_": true
                                         },
                                         "icon": {
+                                            "_id_": 19,
                                             "_type": "DrawableReference",
                                             "ref": {
+                                                "_id_": 20,
                                                 "_type": "String",
-                                                "value_": "@drawable\/page",
-                                                "_id_": 20
-                                            },
-                                            "_id_": 19
+                                                "value_": "@drawable\/page"
+                                            }
                                         },
                                         "title": {
                                             "_id_": 21,
@@ -109,13 +109,13 @@
                                             "value_": true
                                         },
                                         "icon": {
+                                            "_id_": 27,
                                             "_type": "DrawableReference",
                                             "ref": {
+                                                "_id_": 28,
                                                 "_type": "String",
-                                                "value_": "@drawable\/page",
-                                                "_id_": 28
-                                            },
-                                            "_id_": 27
+                                                "value_": "@drawable\/page"
+                                            }
                                         },
                                         "title": {
                                             "_id_": 29,
@@ -146,13 +146,13 @@
                                             "value_": true
                                         },
                                         "icon": {
+                                            "_id_": 35,
                                             "_type": "DrawableReference",
                                             "ref": {
+                                                "_id_": 36,
                                                 "_type": "String",
-                                                "value_": "@drawable\/page",
-                                                "_id_": 36
-                                            },
-                                            "_id_": 35
+                                                "value_": "@drawable\/page"
+                                            }
                                         },
                                         "title": {
                                             "_id_": 37,
@@ -348,13 +348,13 @@
                             }
                         },
                         "android:src": {
+                            "_id_": 77,
                             "_type": "DrawableReference",
                             "ref": {
+                                "_id_": 78,
                                 "_type": "String",
-                                "value_": "@drawable\/header",
-                                "_id_": 78
-                            },
-                            "_id_": 77
+                                "value_": "@drawable\/header"
+                            }
                         }
                     }
                 },
@@ -662,22 +662,22 @@
                 "color_": -1
             },
             "foreground": {
+                "_id_": 145,
                 "_type": "DrawableReference",
                 "ref": {
+                    "_id_": 146,
                     "_type": "String",
-                    "value_": "@drawable\/app_icon",
-                    "_id_": 146
-                },
-                "_id_": 145
+                    "value_": "@drawable\/app_icon"
+                }
             },
             "legacyIcon": {
+                "_id_": 147,
                 "_type": "MipmapReference",
                 "ref": {
+                    "_id_": 148,
                     "_type": "String",
-                    "value_": "@mipmap\/app_icon",
-                    "_id_": 148
-                },
-                "_id_": 147
+                    "value_": "@mipmap\/app_icon"
+                }
             }
         },
         "targetSdk": {
@@ -715,5 +715,5 @@
             "value_": "com.aaappps.drawer"
         }
     },
-    "_abVer": 225
+    "_abVer": 228
 }
