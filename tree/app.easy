@@ -166,7 +166,7 @@
                                                             "ref": {
                                                                 "_id_": 1360,
                                                                 "_type": "String",
-                                                                "value_": "@layout\/page2"
+                                                                "value_": "@layout\/page3"
                                                             }
                                                         },
                                                         "id": {
@@ -769,7 +769,7 @@
                         "url": {
                             "_id_": 547,
                             "_type": "String",
-                            "value_": "home.html"
+                            "value_": "daftar_isi1.html"
                         }
                     }
                 },
