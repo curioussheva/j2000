@@ -113,6 +113,11 @@
                                                     {
                                                         "_id_": 1190,
                                                         "_type": "Menu.Item",
+                                                        "checkable": {
+                                                            "_id_": 1363,
+                                                            "_type": "Boolean",
+                                                            "value_": true
+                                                        },
                                                         "title": {
                                                             "_id_": 1192,
                                                             "_type": "String",
