@@ -118,6 +118,15 @@
                                                             "_type": "String",
                                                             "value_": "page3"
                                                         },
+                                                        "action": {
+                                                            "_id_": 1359,
+                                                            "_type": "LayoutReference",
+                                                            "ref": {
+                                                                "_id_": 1360,
+                                                                "_type": "String",
+                                                                "value_": "@layout\/page2"
+                                                            }
+                                                        },
                                                         "id": {
                                                             "_id_": 1194,
                                                             "_type": "String",
@@ -131,6 +140,15 @@
                                                             "_id_": 1198,
                                                             "_type": "String",
                                                             "value_": "page4"
+                                                        },
+                                                        "action": {
+                                                            "_id_": 1361,
+                                                            "_type": "LayoutReference",
+                                                            "ref": {
+                                                                "_id_": 1362,
+                                                                "_type": "String",
+                                                                "value_": "@layout\/page2"
+                                                            }
                                                         },
                                                         "id": {
                                                             "_id_": 1200,
