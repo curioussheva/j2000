@@ -121,7 +121,7 @@
                                                         "title": {
                                                             "_id_": 1192,
                                                             "_type": "String",
-                                                            "value_": "page3"
+                                                            "value_": "Seputar Budaya Kebatinan Jawa"
                                                         },
                                                         "action": {
                                                             "_id_": 1359,
@@ -139,12 +139,81 @@
                                                         }
                                                     },
                                                     {
+                                                        "_id_": 1547,
+                                                        "_type": "Menu.Item",
+                                                        "title": {
+                                                            "_id_": 1548,
+                                                            "_type": "String",
+                                                            "value_": "Kebatinan dan Spiritual"
+                                                        },
+                                                        "action": {
+                                                            "_id_": 1549,
+                                                            "_type": "LayoutReference",
+                                                            "ref": {
+                                                                "_id_": 1550,
+                                                                "_type": "String",
+                                                                "value_": "@layout\/page2"
+                                                            }
+                                                        },
+                                                        "id": {
+                                                            "_id_": 1551,
+                                                            "_type": "String",
+                                                            "value_": "page4"
+                                                        }
+                                                    },
+                                                    {
+                                                        "_id_": 1537,
+                                                        "_type": "Menu.Item",
+                                                        "title": {
+                                                            "_id_": 1538,
+                                                            "_type": "String",
+                                                            "value_": "Kebatinan dan\n\n Spiritual Ketuhanan\n\n"
+                                                        },
+                                                        "action": {
+                                                            "_id_": 1539,
+                                                            "_type": "LayoutReference",
+                                                            "ref": {
+                                                                "_id_": 1540,
+                                                                "_type": "String",
+                                                                "value_": "@layout\/page2"
+                                                            }
+                                                        },
+                                                        "id": {
+                                                            "_id_": 1541,
+                                                            "_type": "String",
+                                                            "value_": "page5"
+                                                        }
+                                                    },
+                                                    {
+                                                        "_id_": 1527,
+                                                        "_type": "Menu.Item",
+                                                        "title": {
+                                                            "_id_": 1528,
+                                                            "_type": "String",
+                                                            "value_": "Kebatinan dan Spiritual"
+                                                        },
+                                                        "action": {
+                                                            "_id_": 1529,
+                                                            "_type": "LayoutReference",
+                                                            "ref": {
+                                                                "_id_": 1530,
+                                                                "_type": "String",
+                                                                "value_": "@layout\/page2"
+                                                            }
+                                                        },
+                                                        "id": {
+                                                            "_id_": 1531,
+                                                            "_type": "String",
+                                                            "value_": "page6"
+                                                        }
+                                                    },
+                                                    {
                                                         "_id_": 1196,
                                                         "_type": "Menu.Item",
                                                         "title": {
                                                             "_id_": 1198,
                                                             "_type": "String",
-                                                            "value_": "page4"
+                                                            "value_": "Kebatinan dan Spiritual"
                                                         },
                                                         "action": {
                                                             "_id_": 1361,
@@ -158,7 +227,7 @@
                                                         "id": {
                                                             "_id_": 1200,
                                                             "_type": "String",
-                                                            "value_": "page4"
+                                                            "value_": "page7"
                                                         }
                                                     }
                                                 ],
