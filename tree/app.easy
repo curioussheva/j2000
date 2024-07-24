@@ -541,97 +541,109 @@
                 }
             },
             {
-                "_id_": 118,
+                "_id_": 525,
                 "_type": "LayoutResource",
                 "view": {
-                    "_id_": 119,
-                    "_type": "TextView",
+                    "_id_": 526,
+                    "_type": "WebView",
+                    "includeApi": {
+                        "_id_": 527,
+                        "_type": "WebView.Api",
+                        "webView": {
+                            "_id_": 528,
+                            "_type": "Boolean",
+                            "value_": true
+                        }
+                    },
                     "id": {
-                        "_id_": 120,
+                        "_id_": 529,
                         "_type": "String",
                         "value_": ""
                     },
-                    "style": {
-                        "_id_": 121,
-                        "_type": "StyleReference",
-                        "ref": {
-                            "_id_": 122,
+                    "url": {
+                        "_id_": 530,
+                        "_type": "URL",
+                        "url": {
+                            "_id_": 531,
                             "_type": "String",
-                            "value_": "@style\/text"
+                            "value_": "home.html"
                         }
-                    },
-                    "android:text": {
-                        "_id_": 123,
-                        "_type": "String",
-                        "value_": "Page 1"
                     }
                 },
                 "name": {
-                    "_id_": 124,
+                    "_id_": 532,
                     "_type": "String",
                     "value_": "page1"
                 }
             },
             {
-                "_id_": 125,
+                "_id_": 509,
                 "_type": "LayoutResource",
                 "view": {
-                    "_id_": 126,
-                    "_type": "TextView",
+                    "_id_": 510,
+                    "_type": "WebView",
+                    "includeApi": {
+                        "_id_": 511,
+                        "_type": "WebView.Api",
+                        "webView": {
+                            "_id_": 512,
+                            "_type": "Boolean",
+                            "value_": true
+                        }
+                    },
                     "id": {
-                        "_id_": 127,
+                        "_id_": 513,
                         "_type": "String",
                         "value_": ""
                     },
-                    "style": {
-                        "_id_": 128,
-                        "_type": "StyleReference",
-                        "ref": {
-                            "_id_": 129,
+                    "url": {
+                        "_id_": 514,
+                        "_type": "URL",
+                        "url": {
+                            "_id_": 515,
                             "_type": "String",
-                            "value_": "@style\/text"
+                            "value_": "home.html"
                         }
-                    },
-                    "android:text": {
-                        "_id_": 130,
-                        "_type": "String",
-                        "value_": "Page 2"
                     }
                 },
                 "name": {
-                    "_id_": 131,
+                    "_id_": 516,
                     "_type": "String",
                     "value_": "page2"
                 }
             },
             {
-                "_id_": 132,
+                "_id_": 541,
                 "_type": "LayoutResource",
                 "view": {
-                    "_id_": 133,
-                    "_type": "TextView",
+                    "_id_": 542,
+                    "_type": "WebView",
+                    "includeApi": {
+                        "_id_": 543,
+                        "_type": "WebView.Api",
+                        "webView": {
+                            "_id_": 544,
+                            "_type": "Boolean",
+                            "value_": true
+                        }
+                    },
                     "id": {
-                        "_id_": 134,
+                        "_id_": 545,
                         "_type": "String",
                         "value_": ""
                     },
-                    "style": {
-                        "_id_": 135,
-                        "_type": "StyleReference",
-                        "ref": {
-                            "_id_": 136,
+                    "url": {
+                        "_id_": 546,
+                        "_type": "URL",
+                        "url": {
+                            "_id_": 547,
                             "_type": "String",
-                            "value_": "@style\/text"
+                            "value_": "home.html"
                         }
-                    },
-                    "android:text": {
-                        "_id_": 137,
-                        "_type": "String",
-                        "value_": "Page 3"
                     }
                 },
                 "name": {
-                    "_id_": 138,
+                    "_id_": 548,
                     "_type": "String",
                     "value_": "page3"
                 }
