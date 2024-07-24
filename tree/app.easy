@@ -381,9 +381,9 @@
                         "value_": ""
                     },
                     "android:background": {
-                        "_id_": 84,
+                        "_id_": 866,
                         "_type": "Color",
-                        "color_": -15631261
+                        "color_": -15653837
                     },
                     "android:theme": {
                         "_id_": 85,
