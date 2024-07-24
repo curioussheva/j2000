@@ -1,0 +1,719 @@
+{
+    "_id_": 1,
+    "_type": "App",
+    "features": {
+        "_id_": 2,
+        "_type": "App.Features",
+        "list_": [
+            {
+                "_id_": 3,
+                "_type": "Activity",
+                "features": {
+                    "_id_": 4,
+                    "_type": "Activity.Features",
+                    "list_": []
+                },
+                "handleConfigChanges": {
+                    "_id_": 5,
+                    "_type": "Activity.ConfigChanges"
+                },
+                "theme": {
+                    "_id_": 6,
+                    "_type": "Theme.Material.DayNight"
+                },
+                "drawer": {
+                    "_id_": 7,
+                    "_type": "Drawer",
+                    "id": {
+                        "_id_": 8,
+                        "_type": "String",
+                        "value_": ""
+                    },
+                    "views": {
+                        "_id_": 9,
+                        "_type": "ViewList",
+                        "list_": []
+                    },
+                    "menu": {
+                        "_id_": 10,
+                        "_type": "Drawer.NativeMenu",
+                        "defaultItem": {
+                            "_id_": 11,
+                            "_type": "IdReference",
+                            "ref": {
+                                "_id_": 12,
+                                "_type": "String",
+                                "value_": "@id\/page1"
+                            }
+                        },
+                        "id": {
+                            "_id_": 13,
+                            "_type": "String",
+                            "value_": "dm"
+                        },
+                        "views": {
+                            "_id_": 14,
+                            "_type": "ViewList",
+                            "list_": []
+                        },
+                        "menu": {
+                            "_id_": 15,
+                            "_type": "Menu",
+                            "items": {
+                                "_id_": 16,
+                                "_type": "List",
+                                "list_": [
+                                    {
+                                        "_id_": 17,
+                                        "_type": "Menu.Item",
+                                        "checkable": {
+                                            "_id_": 18,
+                                            "_type": "Boolean",
+                                            "value_": true
+                                        },
+                                        "icon": {
+                                            "_type": "DrawableReference",
+                                            "ref": {
+                                                "_type": "String",
+                                                "value_": "@drawable\/page",
+                                                "_id_": 20
+                                            },
+                                            "_id_": 19
+                                        },
+                                        "title": {
+                                            "_id_": 21,
+                                            "_type": "String",
+                                            "value_": "Page 1"
+                                        },
+                                        "action": {
+                                            "_id_": 22,
+                                            "_type": "LayoutReference",
+                                            "ref": {
+                                                "_id_": 23,
+                                                "_type": "String",
+                                                "value_": "@layout\/page1"
+                                            }
+                                        },
+                                        "id": {
+                                            "_id_": 24,
+                                            "_type": "String",
+                                            "value_": "page1"
+                                        }
+                                    },
+                                    {
+                                        "_id_": 25,
+                                        "_type": "Menu.Item",
+                                        "checkable": {
+                                            "_id_": 26,
+                                            "_type": "Boolean",
+                                            "value_": true
+                                        },
+                                        "icon": {
+                                            "_type": "DrawableReference",
+                                            "ref": {
+                                                "_type": "String",
+                                                "value_": "@drawable\/page",
+                                                "_id_": 28
+                                            },
+                                            "_id_": 27
+                                        },
+                                        "title": {
+                                            "_id_": 29,
+                                            "_type": "String",
+                                            "value_": "Page 2"
+                                        },
+                                        "action": {
+                                            "_id_": 30,
+                                            "_type": "LayoutReference",
+                                            "ref": {
+                                                "_id_": 31,
+                                                "_type": "String",
+                                                "value_": "@layout\/page2"
+                                            }
+                                        },
+                                        "id": {
+                                            "_id_": 32,
+                                            "_type": "String",
+                                            "value_": "page2"
+                                        }
+                                    },
+                                    {
+                                        "_id_": 33,
+                                        "_type": "Menu.Item",
+                                        "checkable": {
+                                            "_id_": 34,
+                                            "_type": "Boolean",
+                                            "value_": true
+                                        },
+                                        "icon": {
+                                            "_type": "DrawableReference",
+                                            "ref": {
+                                                "_type": "String",
+                                                "value_": "@drawable\/page",
+                                                "_id_": 36
+                                            },
+                                            "_id_": 35
+                                        },
+                                        "title": {
+                                            "_id_": 37,
+                                            "_type": "String",
+                                            "value_": "Page 3"
+                                        },
+                                        "action": {
+                                            "_id_": 38,
+                                            "_type": "LayoutReference",
+                                            "ref": {
+                                                "_id_": 39,
+                                                "_type": "String",
+                                                "value_": "@layout\/page3"
+                                            }
+                                        },
+                                        "id": {
+                                            "_id_": 40,
+                                            "_type": "String",
+                                            "value_": "page3"
+                                        }
+                                    },
+                                    {
+                                        "_id_": 41,
+                                        "_type": "Menu.Item",
+                                        "subMenu": {
+                                            "_id_": 42,
+                                            "_type": "Menu",
+                                            "items": {
+                                                "_id_": 43,
+                                                "_type": "List",
+                                                "list_": [
+                                                    {
+                                                        "_id_": 44,
+                                                        "_type": "Menu.Item",
+                                                        "title": {
+                                                            "_id_": 45,
+                                                            "_type": "String",
+                                                            "value_": "Browser"
+                                                        },
+                                                        "action": {
+                                                            "_id_": 46,
+                                                            "_type": "Activity.Start",
+                                                            "intent": {
+                                                                "_id_": 47,
+                                                                "_type": "Intent",
+                                                                "data": {
+                                                                    "_id_": 48,
+                                                                    "_type": "String",
+                                                                    "value_": "https:\/\/google.com"
+                                                                },
+                                                                "action": {
+                                                                    "_id_": 49,
+                                                                    "_type": "String",
+                                                                    "value_": "ACTION_VIEW"
+                                                                }
+                                                            }
+                                                        },
+                                                        "id": {
+                                                            "_id_": 50,
+                                                            "_type": "String",
+                                                            "value_": ""
+                                                        }
+                                                    },
+                                                    {
+                                                        "_id_": 51,
+                                                        "_type": "Menu.Item",
+                                                        "title": {
+                                                            "_id_": 52,
+                                                            "_type": "String",
+                                                            "value_": "Another Activity"
+                                                        },
+                                                        "action": {
+                                                            "_id_": 53,
+                                                            "_type": "Activity.StartOwn",
+                                                            "activity": {
+                                                                "_id_": 54,
+                                                                "_type": "String",
+                                                                "value_": "AnotherActivity"
+                                                            }
+                                                        },
+                                                        "id": {
+                                                            "_id_": 55,
+                                                            "_type": "String",
+                                                            "value_": ""
+                                                        }
+                                                    }
+                                                ],
+                                                "elementType_": "Menu.Element"
+                                            }
+                                        },
+                                        "title": {
+                                            "_id_": 56,
+                                            "_type": "String",
+                                            "value_": "Extra Stuff"
+                                        },
+                                        "id": {
+                                            "_id_": 57,
+                                            "_type": "String",
+                                            "value_": ""
+                                        }
+                                    }
+                                ],
+                                "elementType_": "Menu.Element"
+                            }
+                        },
+                        "fragmentContainer": {
+                            "_id_": 58,
+                            "_type": "View.Reference",
+                            "ref": {
+                                "_id_": 59,
+                                "_type": "String",
+                                "value_": "@id\/content"
+                            }
+                        },
+                        "initialSync": {
+                            "_id_": 60,
+                            "_type": "Boolean",
+                            "value_": true
+                        },
+                        "android:background": {
+                            "_id_": 61,
+                            "_type": "ColorReference",
+                            "ref": {
+                                "_id_": 62,
+                                "_type": "String",
+                                "value_": "@color\/drawerBackground"
+                            }
+                        }
+                    },
+                    "width": {
+                        "_id_": 63,
+                        "_type": "Dimension",
+                        "unit": {
+                            "_id_": 64,
+                            "_type": "DimensionUnit",
+                            "value_": "dp"
+                        },
+                        "value": {
+                            "_id_": 65,
+                            "_type": "Float",
+                            "value_": 200
+                        }
+                    },
+                    "header": {
+                        "_id_": 66,
+                        "_type": "ImageView",
+                        "id": {
+                            "_id_": 67,
+                            "_type": "String",
+                            "value_": ""
+                        },
+                        "android:layout_width": {
+                            "_id_": 68,
+                            "_type": "View.SpecialDimension",
+                            "value_": "match_parent"
+                        },
+                        "android:background": {
+                            "_id_": 69,
+                            "_type": "Color",
+                            "color_": -13151952
+                        },
+                        "android:layout_height": {
+                            "_id_": 70,
+                            "_type": "Dimension",
+                            "unit": {
+                                "_id_": 71,
+                                "_type": "DimensionUnit",
+                                "value_": "dp"
+                            },
+                            "value": {
+                                "_id_": 72,
+                                "_type": "Float",
+                                "value_": 120
+                            }
+                        },
+                        "android:scaleType": {
+                            "_id_": 73,
+                            "_type": "ImageView.ScaleType",
+                            "value_": "fitCenter"
+                        },
+                        "android:padding": {
+                            "_id_": 74,
+                            "_type": "Dimension",
+                            "unit": {
+                                "_id_": 75,
+                                "_type": "DimensionUnit",
+                                "value_": "dp"
+                            },
+                            "value": {
+                                "_id_": 76,
+                                "_type": "Float",
+                                "value_": 10
+                            }
+                        },
+                        "android:src": {
+                            "_type": "DrawableReference",
+                            "ref": {
+                                "_type": "String",
+                                "value_": "@drawable\/header",
+                                "_id_": 78
+                            },
+                            "_id_": 77
+                        }
+                    }
+                },
+                "contentView": {
+                    "_id_": 79,
+                    "_type": "FragmentContainerView",
+                    "id": {
+                        "_id_": 80,
+                        "_type": "String",
+                        "value_": "content"
+                    },
+                    "views": {
+                        "_id_": 81,
+                        "_type": "ViewList",
+                        "list_": []
+                    }
+                },
+                "toolbar": {
+                    "_id_": 82,
+                    "_type": "Toolbar",
+                    "id": {
+                        "_id_": 83,
+                        "_type": "String",
+                        "value_": ""
+                    },
+                    "android:background": {
+                        "_id_": 84,
+                        "_type": "Color",
+                        "color_": -15631261
+                    },
+                    "android:theme": {
+                        "_id_": 85,
+                        "_type": "AndroidTheme",
+                        "value_": "ThemeOverlay.AppCompat.Dark.ActionBar"
+                    }
+                },
+                "name": {
+                    "_id_": 86,
+                    "_type": "String",
+                    "value_": "Main"
+                },
+                "launcher": {
+                    "_id_": 87,
+                    "_type": "Activity.Launcher"
+                }
+            },
+            {
+                "_id_": 88,
+                "_type": "Activity",
+                "features": {
+                    "_id_": 89,
+                    "_type": "Activity.Features",
+                    "list_": []
+                },
+                "screenOrientation": {
+                    "_id_": 90,
+                    "_type": "Activity.ScreenOrientation",
+                    "value_": "landscape"
+                },
+                "theme": {
+                    "_id_": 91,
+                    "_type": "Theme.DayNight"
+                },
+                "fullScreen": {
+                    "_id_": 92,
+                    "_type": "Activity.FullScreen",
+                    "hideNavigation": {
+                        "_id_": 93,
+                        "_type": "Activity.HideNavigation"
+                    }
+                },
+                "contentView": {
+                    "_id_": 94,
+                    "_type": "WebView",
+                    "id": {
+                        "_id_": 95,
+                        "_type": "String",
+                        "value_": "youtube"
+                    },
+                    "url": {
+                        "_id_": 96,
+                        "_type": "URL",
+                        "url": {
+                            "_id_": 97,
+                            "_type": "String",
+                            "value_": "youtube.html"
+                        }
+                    }
+                },
+                "background": {
+                    "_id_": 98,
+                    "_type": "Color",
+                    "color_": -16777216
+                },
+                "name": {
+                    "_id_": 99,
+                    "_type": "String",
+                    "value_": "AnotherActivity"
+                }
+            },
+            {
+                "_id_": 100,
+                "_type": "StyleResource",
+                "name": {
+                    "_id_": 101,
+                    "_type": "String",
+                    "value_": "text"
+                },
+                "style": {
+                    "_id_": 102,
+                    "_type": "Style",
+                    "android:layout_width": {
+                        "_id_": 103,
+                        "_type": "View.SpecialDimension",
+                        "value_": "match_parent"
+                    },
+                    "android:layout_height": {
+                        "_id_": 104,
+                        "_type": "View.SpecialDimension",
+                        "value_": "match_parent"
+                    },
+                    "android:textSize": {
+                        "_id_": 105,
+                        "_type": "Dimension",
+                        "unit": {
+                            "_id_": 106,
+                            "_type": "DimensionUnit",
+                            "value_": "dp"
+                        },
+                        "value": {
+                            "_id_": 107,
+                            "_type": "Float",
+                            "value_": 50
+                        }
+                    },
+                    "android:gravity": {
+                        "_id_": 108,
+                        "_type": "Gravity",
+                        "value_": "center"
+                    }
+                }
+            },
+            {
+                "_id_": 109,
+                "_type": "ColorResource",
+                "color": {
+                    "_id_": 110,
+                    "_type": "Color",
+                    "color_": -1577239
+                },
+                "name": {
+                    "_id_": 111,
+                    "_type": "String",
+                    "value_": "drawerBackground"
+                }
+            },
+            {
+                "_id_": 112,
+                "_type": "ColorResource",
+                "color": {
+                    "_id_": 113,
+                    "_type": "Color",
+                    "color_": -12367551
+                },
+                "configuration": {
+                    "_id_": 114,
+                    "_type": "ResourceConfiguration",
+                    "nightMode": {
+                        "_id_": 115,
+                        "_type": "App.ResourceConfiguration.NightMode",
+                        "value_": "night"
+                    }
+                },
+                "name": {
+                    "_id_": 116,
+                    "_type": "String",
+                    "value_": "drawerBackground"
+                },
+                "comment": {
+                    "_id_": 117,
+                    "_type": "Comment",
+                    "list_": [],
+                    "text_": "Drawer background for the night mode (dark)"
+                }
+            },
+            {
+                "_id_": 118,
+                "_type": "LayoutResource",
+                "view": {
+                    "_id_": 119,
+                    "_type": "TextView",
+                    "id": {
+                        "_id_": 120,
+                        "_type": "String",
+                        "value_": ""
+                    },
+                    "style": {
+                        "_id_": 121,
+                        "_type": "StyleReference",
+                        "ref": {
+                            "_id_": 122,
+                            "_type": "String",
+                            "value_": "@style\/text"
+                        }
+                    },
+                    "android:text": {
+                        "_id_": 123,
+                        "_type": "String",
+                        "value_": "Page 1"
+                    }
+                },
+                "name": {
+                    "_id_": 124,
+                    "_type": "String",
+                    "value_": "page1"
+                }
+            },
+            {
+                "_id_": 125,
+                "_type": "LayoutResource",
+                "view": {
+                    "_id_": 126,
+                    "_type": "TextView",
+                    "id": {
+                        "_id_": 127,
+                        "_type": "String",
+                        "value_": ""
+                    },
+                    "style": {
+                        "_id_": 128,
+                        "_type": "StyleReference",
+                        "ref": {
+                            "_id_": 129,
+                            "_type": "String",
+                            "value_": "@style\/text"
+                        }
+                    },
+                    "android:text": {
+                        "_id_": 130,
+                        "_type": "String",
+                        "value_": "Page 2"
+                    }
+                },
+                "name": {
+                    "_id_": 131,
+                    "_type": "String",
+                    "value_": "page2"
+                }
+            },
+            {
+                "_id_": 132,
+                "_type": "LayoutResource",
+                "view": {
+                    "_id_": 133,
+                    "_type": "TextView",
+                    "id": {
+                        "_id_": 134,
+                        "_type": "String",
+                        "value_": ""
+                    },
+                    "style": {
+                        "_id_": 135,
+                        "_type": "StyleReference",
+                        "ref": {
+                            "_id_": 136,
+                            "_type": "String",
+                            "value_": "@style\/text"
+                        }
+                    },
+                    "android:text": {
+                        "_id_": 137,
+                        "_type": "String",
+                        "value_": "Page 3"
+                    }
+                },
+                "name": {
+                    "_id_": 138,
+                    "_type": "String",
+                    "value_": "page3"
+                }
+            }
+        ]
+    },
+    "settings": {
+        "_id_": 139,
+        "_type": "App.Settings",
+        "debugBuild": {
+            "_id_": 140,
+            "_type": "App.Settings.DebugBuild"
+        },
+        "releaseBuild": {
+            "_id_": 141,
+            "_type": "App.Settings.ReleaseBuild"
+        }
+    },
+    "packaging": {
+        "_id_": 142,
+        "_type": "App.Packaging",
+        "icon": {
+            "_id_": 143,
+            "_type": "AdaptiveIcon",
+            "background": {
+                "_id_": 144,
+                "_type": "Color",
+                "color_": -1
+            },
+            "foreground": {
+                "_type": "DrawableReference",
+                "ref": {
+                    "_type": "String",
+                    "value_": "@drawable\/app_icon",
+                    "_id_": 146
+                },
+                "_id_": 145
+            },
+            "legacyIcon": {
+                "_type": "MipmapReference",
+                "ref": {
+                    "_type": "String",
+                    "value_": "@mipmap\/app_icon",
+                    "_id_": 148
+                },
+                "_id_": 147
+            }
+        },
+        "targetSdk": {
+            "_id_": 149,
+            "_type": "Integer",
+            "value_": 33
+        },
+        "label": {
+            "_id_": 150,
+            "_type": "String",
+            "value_": "Navigation Drawer"
+        },
+        "versionName": {
+            "_id_": 151,
+            "_type": "String",
+            "value_": "1.0"
+        },
+        "versionCode": {
+            "_id_": 152,
+            "_type": "Integer",
+            "value_": 1
+        },
+        "minSdk": {
+            "_id_": 153,
+            "_type": "Integer",
+            "value_": 24
+        },
+        "permissions": {
+            "_id_": 154,
+            "_type": "App.Permissions"
+        },
+        "packageName": {
+            "_id_": 155,
+            "_type": "String",
+            "value_": "com.aaappps.drawer"
+        }
+    },
+    "_abVer": 225
+}
