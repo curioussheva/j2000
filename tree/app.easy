@@ -103,6 +103,45 @@
                                     {
                                         "_id_": 321,
                                         "_type": "Menu.Item",
+                                        "subMenu": {
+                                            "_id_": 1186,
+                                            "_type": "Menu",
+                                            "items": {
+                                                "_id_": 1188,
+                                                "_type": "List",
+                                                "list_": [
+                                                    {
+                                                        "_id_": 1190,
+                                                        "_type": "Menu.Item",
+                                                        "title": {
+                                                            "_id_": 1192,
+                                                            "_type": "String",
+                                                            "value_": "page3"
+                                                        },
+                                                        "id": {
+                                                            "_id_": 1194,
+                                                            "_type": "String",
+                                                            "value_": "page3"
+                                                        }
+                                                    },
+                                                    {
+                                                        "_id_": 1196,
+                                                        "_type": "Menu.Item",
+                                                        "title": {
+                                                            "_id_": 1198,
+                                                            "_type": "String",
+                                                            "value_": "page4"
+                                                        },
+                                                        "id": {
+                                                            "_id_": 1200,
+                                                            "_type": "String",
+                                                            "value_": "page4"
+                                                        }
+                                                    }
+                                                ],
+                                                "elementType_": "Menu.Element"
+                                            }
+                                        },
                                         "checkable": {
                                             "_id_": 322,
                                             "_type": "Boolean",
@@ -114,7 +153,7 @@
                                             "ref": {
                                                 "_id_": 324,
                                                 "_type": "String",
-                                                "value_": "@drawable\/page"
+                                                "value_": "@drawable\/daftarisi"
                                             }
                                         },
                                         "title": {
@@ -135,43 +174,6 @@
                                             "_id_": 328,
                                             "_type": "String",
                                             "value_": "page2"
-                                        }
-                                    },
-                                    {
-                                        "_id_": 329,
-                                        "_type": "Menu.Item",
-                                        "checkable": {
-                                            "_id_": 330,
-                                            "_type": "Boolean",
-                                            "value_": true
-                                        },
-                                        "icon": {
-                                            "_id_": 331,
-                                            "_type": "DrawableReference",
-                                            "ref": {
-                                                "_id_": 332,
-                                                "_type": "String",
-                                                "value_": "@drawable\/page"
-                                            }
-                                        },
-                                        "title": {
-                                            "_id_": 333,
-                                            "_type": "String",
-                                            "value_": "Page 3"
-                                        },
-                                        "action": {
-                                            "_id_": 334,
-                                            "_type": "LayoutReference",
-                                            "ref": {
-                                                "_id_": 335,
-                                                "_type": "String",
-                                                "value_": "@layout\/page3"
-                                            }
-                                        },
-                                        "id": {
-                                            "_id_": 336,
-                                            "_type": "String",
-                                            "value_": "page3"
                                         }
                                     },
                                     {
