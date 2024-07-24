@@ -310,9 +310,9 @@
                             "value_": "match_parent"
                         },
                         "android:background": {
-                            "_id_": 69,
+                            "_id_": 707,
                             "_type": "Color",
-                            "color_": -13151952
+                            "color_": -15653837
                         },
                         "android:layout_height": {
                             "_id_": 70,
