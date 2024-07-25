@@ -482,6 +482,11 @@
                                                     {
                                                         "_id_": 347,
                                                         "_type": "Menu.Item",
+                                                        "checkable": {
+                                                            "_id_": 2624,
+                                                            "_type": "Boolean",
+                                                            "value_": true
+                                                        },
                                                         "title": {
                                                             "_id_": 348,
                                                             "_type": "String",
