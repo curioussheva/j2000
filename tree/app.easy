@@ -482,18 +482,23 @@
                                                     {
                                                         "_id_": 347,
                                                         "_type": "Menu.Item",
+                                                        "checkable": {
+                                                            "_id_": 2906,
+                                                            "_type": "Boolean",
+                                                            "value_": true
+                                                        },
                                                         "title": {
                                                             "_id_": 348,
                                                             "_type": "String",
-                                                            "value_": "Another Activity"
+                                                            "value_": "Hubungi kami"
                                                         },
                                                         "action": {
-                                                            "_id_": 349,
-                                                            "_type": "Activity.StartOwn",
-                                                            "activity": {
-                                                                "_id_": 350,
+                                                            "_id_": 2904,
+                                                            "_type": "LayoutReference",
+                                                            "ref": {
+                                                                "_id_": 2905,
                                                                 "_type": "String",
-                                                                "value_": "AnotherActivity"
+                                                                "value_": "@layout\/contact"
                                                             }
                                                         },
                                                         "id": {
@@ -1164,6 +1169,42 @@
                 }
             },
             {
+                "_id_": 2610,
+                "_type": "LayoutResource",
+                "view": {
+                    "_id_": 2611,
+                    "_type": "WebView",
+                    "includeApi": {
+                        "_id_": 2612,
+                        "_type": "WebView.Api",
+                        "webView": {
+                            "_id_": 2613,
+                            "_type": "Boolean",
+                            "value_": true
+                        }
+                    },
+                    "id": {
+                        "_id_": 2614,
+                        "_type": "String",
+                        "value_": ""
+                    },
+                    "url": {
+                        "_id_": 2615,
+                        "_type": "URL",
+                        "url": {
+                            "_id_": 2616,
+                            "_type": "String",
+                            "value_": "katagori9.html"
+                        }
+                    }
+                },
+                "name": {
+                    "_id_": 2617,
+                    "_type": "String",
+                    "value_": "page11"
+                }
+            },
+            {
                 "_id_": 2324,
                 "_type": "LayoutResource",
                 "view": {
@@ -1189,14 +1230,14 @@
                         "url": {
                             "_id_": 2330,
                             "_type": "String",
-                            "value_": "katagori9.html"
+                            "value_": "contact\/index.html"
                         }
                     }
                 },
                 "name": {
                     "_id_": 2331,
                     "_type": "String",
-                    "value_": "page11"
+                    "value_": "contact"
                 }
             }
         ]
