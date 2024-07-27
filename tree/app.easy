@@ -1230,7 +1230,7 @@
                         "url": {
                             "_id_": 2330,
                             "_type": "String",
-                            "value_": "contact\/index.html"
+                            "value_": "java-contact-form\/WebContent\/contact.html"
                         }
                     }
                 },
