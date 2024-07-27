@@ -1325,9 +1325,9 @@
             "_id_": 143,
             "_type": "AdaptiveIcon",
             "background": {
-                "_id_": 144,
+                "_id_": 3517,
                 "_type": "Color",
-                "color_": -1
+                "color_": -15653837
             },
             "foreground": {
                 "_id_": 145,
