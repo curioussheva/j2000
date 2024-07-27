@@ -6,7 +6,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel='stylesheet' href='style.css' type='text/css' media='all' />
-<script>
+
 <%@ page import="com.javapapers.java.mail.JavaEmail"%>
 <%@ page import="javax.mail.MessagingException;"%>
 <%
@@ -44,7 +44,7 @@
 		}
 	}
 %>
-</script>
+
 
 
 </head>
@@ -85,14 +85,14 @@
 					<div id="mail-status"></div>
 					<input type="submit" name="submit" value="Send Message"
 						id="send-message" style="clear: both;">
-<script>
+
 					<%
 						if (null != message) {
 							out.println("<div class='" + status + "'>"
 									+ message + "</div>");
 						}
 					%>
-</script>					
+					
 				</form>
 			</div>
 		</div>
