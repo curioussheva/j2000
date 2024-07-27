@@ -506,6 +506,34 @@
                                                             "_type": "String",
                                                             "value_": ""
                                                         }
+                                                    },
+                                                    {
+                                                        "_id_": 3210,
+                                                        "_type": "Menu.Item",
+                                                        "checkable": {
+                                                            "_id_": 3211,
+                                                            "_type": "Boolean",
+                                                            "value_": true
+                                                        },
+                                                        "title": {
+                                                            "_id_": 3212,
+                                                            "_type": "String",
+                                                            "value_": "Hubungi kami"
+                                                        },
+                                                        "action": {
+                                                            "_id_": 3213,
+                                                            "_type": "LayoutReference",
+                                                            "ref": {
+                                                                "_id_": 3214,
+                                                                "_type": "String",
+                                                                "value_": "@layout\/contact1"
+                                                            }
+                                                        },
+                                                        "id": {
+                                                            "_id_": 3215,
+                                                            "_type": "String",
+                                                            "value_": ""
+                                                        }
                                                     }
                                                 ],
                                                 "elementType_": "Menu.Element"
@@ -1238,6 +1266,42 @@
                     "_id_": 2331,
                     "_type": "String",
                     "value_": "contact"
+                }
+            },
+            {
+                "_id_": 3194,
+                "_type": "LayoutResource",
+                "view": {
+                    "_id_": 3195,
+                    "_type": "WebView",
+                    "includeApi": {
+                        "_id_": 3196,
+                        "_type": "WebView.Api",
+                        "webView": {
+                            "_id_": 3197,
+                            "_type": "Boolean",
+                            "value_": true
+                        }
+                    },
+                    "id": {
+                        "_id_": 3198,
+                        "_type": "String",
+                        "value_": ""
+                    },
+                    "url": {
+                        "_id_": 3199,
+                        "_type": "URL",
+                        "url": {
+                            "_id_": 3200,
+                            "_type": "String",
+                            "value_": "contact.jsp"
+                        }
+                    }
+                },
+                "name": {
+                    "_id_": 3201,
+                    "_type": "String",
+                    "value_": "contact1"
                 }
             }
         ]
