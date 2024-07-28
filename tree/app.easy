@@ -762,46 +762,306 @@
                     }
                 },
                 "contentView": {
-                    "_id_": 5769,
-                    "_type": "AdMob.AdView",
+                    "_id_": 6444,
+                    "_type": "LinearLayout",
                     "id": {
-                        "_id_": 5770,
+                        "_id_": 6445,
                         "_type": "String",
                         "value_": ""
                     },
-                    "adUnit": {
-                        "_id_": 5771,
-                        "_type": "AdMob.AdUnitReference",
-                        "name": {
-                            "_id_": 5772,
-                            "_type": "String",
-                            "value_": "MyBanner"
-                        }
+                    "views": {
+                        "_id_": 6446,
+                        "_type": "ViewList",
+                        "list_": [
+                            {
+                                "_id_": 6447,
+                                "_type": "WebView.Decor",
+                                "progressBar": {
+                                    "_id_": 6448,
+                                    "_type": "ProgressBar",
+                                    "id": {
+                                        "_id_": 6449,
+                                        "_type": "String",
+                                        "value_": ""
+                                    }
+                                },
+                                "id": {
+                                    "_id_": 6450,
+                                    "_type": "String",
+                                    "value_": ""
+                                },
+                                "views": {
+                                    "_id_": 6451,
+                                    "_type": "ViewList",
+                                    "list_": []
+                                },
+                                "errorView": {
+                                    "_id_": 6452,
+                                    "_type": "LinearLayout",
+                                    "id": {
+                                        "_id_": 6453,
+                                        "_type": "String",
+                                        "value_": "errorPanel"
+                                    },
+                                    "views": {
+                                        "_id_": 6454,
+                                        "_type": "ViewList",
+                                        "list_": [
+                                            {
+                                                "_id_": 6455,
+                                                "_type": "TextView",
+                                                "id": {
+                                                    "_id_": 6456,
+                                                    "_type": "String",
+                                                    "value_": ""
+                                                },
+                                                "android:textSize": {
+                                                    "_id_": 6457,
+                                                    "_type": "Dimension",
+                                                    "unit": {
+                                                        "_id_": 6458,
+                                                        "_type": "DimensionUnit",
+                                                        "value_": "sp"
+                                                    },
+                                                    "value": {
+                                                        "_id_": 6459,
+                                                        "_type": "Float",
+                                                        "value_": 20
+                                                    }
+                                                },
+                                                "android:text": {
+                                                    "_id_": 6460,
+                                                    "_type": "String",
+                                                    "value_": "Cannot Load The Web Page"
+                                                },
+                                                "android:gravity": {
+                                                    "_id_": 6461,
+                                                    "_type": "Gravity",
+                                                    "value_": "center"
+                                                },
+                                                "android:textColor": {
+                                                    "_id_": 6462,
+                                                    "_type": "Color",
+                                                    "color_": -1712
+                                                },
+                                                "android:layout_margin": {
+                                                    "_id_": 6463,
+                                                    "_type": "Dimension",
+                                                    "unit": {
+                                                        "_id_": 6464,
+                                                        "_type": "DimensionUnit",
+                                                        "value_": "dp"
+                                                    },
+                                                    "value": {
+                                                        "_id_": 6465,
+                                                        "_type": "Float",
+                                                        "value_": 20
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "_id_": 6466,
+                                                "_type": "Button",
+                                                "onClick": {
+                                                    "_id_": 6467,
+                                                    "_type": "Sequence",
+                                                    "list_": [
+                                                        {
+                                                            "_id_": 6468,
+                                                            "_type": "WebView.Reload",
+                                                            "viewId": {
+                                                                "_id_": 6469,
+                                                                "_type": "View.Reference",
+                                                                "ref": {
+                                                                    "_id_": 6470,
+                                                                    "_type": "String",
+                                                                    "value_": "@id\/webView"
+                                                                }
+                                                            }
+                                                        },
+                                                        {
+                                                            "_id_": 6471,
+                                                            "_type": "View.Remove",
+                                                            "view": {
+                                                                "_id_": 6472,
+                                                                "_type": "View.Reference",
+                                                                "ref": {
+                                                                    "_id_": 6473,
+                                                                    "_type": "String",
+                                                                    "value_": "@id\/errorPanel"
+                                                                }
+                                                            }
+                                                        }
+                                                    ]
+                                                },
+                                                "id": {
+                                                    "_id_": 6474,
+                                                    "_type": "String",
+                                                    "value_": ""
+                                                },
+                                                "android:text": {
+                                                    "_id_": 6475,
+                                                    "_type": "String",
+                                                    "value_": "Try Again"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    "android:background": {
+                                        "_id_": 6476,
+                                        "_type": "Color",
+                                        "color_": -12437280
+                                    },
+                                    "android:gravity": {
+                                        "_id_": 6477,
+                                        "_type": "Gravity",
+                                        "value_": "center"
+                                    },
+                                    "android:orientation": {
+                                        "_id_": 6478,
+                                        "_type": "Orientation",
+                                        "value_": "vertical"
+                                    }
+                                },
+                                "refresh": {
+                                    "_id_": 6479,
+                                    "_type": "SwipeRefreshLayout",
+                                    "id": {
+                                        "_id_": 6480,
+                                        "_type": "String",
+                                        "value_": ""
+                                    }
+                                },
+                                "webView": {
+                                    "_id_": 6481,
+                                    "_type": "WebView",
+                                    "webViewClient": {
+                                        "_id_": 6482,
+                                        "_type": "WebView.WebViewClient",
+                                        "onPageStarted": {
+                                            "_id_": 6483,
+                                            "_type": "Sequence",
+                                            "list_": [
+                                                {
+                                                    "_id_": 6484,
+                                                    "_type": "CheckValue",
+                                                    "onZero": {
+                                                        "_id_": 6485,
+                                                        "_type": "AdMob.Show",
+                                                        "name": {
+                                                            "_id_": 6486,
+                                                            "_type": "String",
+                                                            "value_": "ad"
+                                                        }
+                                                    },
+                                                    "value": {
+                                                        "_id_": 6487,
+                                                        "_type": "Expression",
+                                                        "text": {
+                                                            "_id_": 6488,
+                                                            "_type": "String",
+                                                            "value_": "(counter++)%adFrequency"
+                                                        }
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    "id": {
+                                        "_id_": 6489,
+                                        "_type": "String",
+                                        "value_": "webView"
+                                    },
+                                    "urlValue": {
+                                        "_id_": 6490,
+                                        "_type": "Variable.Get",
+                                        "name": {
+                                            "_id_": 6491,
+                                            "_type": "String",
+                                            "value_": "URL"
+                                        }
+                                    }
+                                },
+                                "android:layout_height": {
+                                    "_id_": 6492,
+                                    "_type": "Dimension",
+                                    "unit": {
+                                        "_id_": 6493,
+                                        "_type": "DimensionUnit",
+                                        "value_": "dp"
+                                    },
+                                    "value": {
+                                        "_id_": 6494,
+                                        "_type": "Float",
+                                        "value_": 0
+                                    }
+                                },
+                                "android:layout_weight": {
+                                    "_id_": 6495,
+                                    "_type": "Float",
+                                    "value_": 1
+                                }
+                            },
+                            {
+                                "_id_": 6496,
+                                "_type": "AdMob.AdView",
+                                "id": {
+                                    "_id_": 6497,
+                                    "_type": "String",
+                                    "value_": ""
+                                },
+                                "adUnit": {
+                                    "_id_": 6498,
+                                    "_type": "AdMob.AdUnitReference",
+                                    "name": {
+                                        "_id_": 6499,
+                                        "_type": "String",
+                                        "value_": "MyBanner"
+                                    }
+                                },
+                                "adSize": {
+                                    "_id_": 6500,
+                                    "_type": "AdMob.AdSize",
+                                    "value_": "SMART_BANNER"
+                                },
+                                "android:layout_width": {
+                                    "_id_": 6501,
+                                    "_type": "View.SpecialDimension",
+                                    "value_": "wrap_content"
+                                },
+                                "android:layout_height": {
+                                    "_id_": 6502,
+                                    "_type": "View.SpecialDimension",
+                                    "value_": "wrap_content"
+                                },
+                                "android:layout_gravity": {
+                                    "_id_": 6503,
+                                    "_type": "Gravity",
+                                    "value_": "center_horizontal"
+                                },
+                                "android:layout_weight": {
+                                    "_id_": 6504,
+                                    "_type": "Integer",
+                                    "value_": 0
+                                }
+                            }
+                        ]
                     },
-                    "adSize": {
-                        "_id_": 5773,
-                        "_type": "AdMob.AdSize",
-                        "value_": "SMART_BANNER"
+                    "comment": {
+                        "_id_": 6505,
+                        "_type": "Comment",
+                        "list_": [],
+                        "text_": "The banner ad is displayed at the top.. If you want to display it at the bottom, move AdMob.AdView to below SwipeRefreshReload view."
                     },
-                    "android:layout_width": {
-                        "_id_": 5774,
-                        "_type": "View.SpecialDimension",
-                        "value_": "wrap_content"
+                    "android:background": {
+                        "_id_": 6506,
+                        "_type": "Color",
+                        "color_": -1
                     },
-                    "android:layout_height": {
-                        "_id_": 5775,
-                        "_type": "View.SpecialDimension",
-                        "value_": "wrap_content"
-                    },
-                    "android:layout_gravity": {
-                        "_id_": 5776,
-                        "_type": "Gravity",
-                        "value_": "center_horizontal"
-                    },
-                    "android:layout_weight": {
-                        "_id_": 5777,
-                        "_type": "Integer",
-                        "value_": 0
+                    "android:orientation": {
+                        "_id_": 6507,
+                        "_type": "Orientation",
+                        "value_": "vertical"
                     }
                 },
                 "background": {
