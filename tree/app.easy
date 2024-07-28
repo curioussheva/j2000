@@ -804,6 +804,29 @@
                                 "_type": "String",
                                 "value_": "counter"
                             }
+                        },
+                        {
+                            "_id_": 8087,
+                            "_type": "AdMob.InterstitialAd",
+                            "adUnit": {
+                                "_id_": 8088,
+                                "_type": "AdMob.AdUnitReference",
+                                "name": {
+                                    "_id_": 8089,
+                                    "_type": "String",
+                                    "value_": "MyInterstitial"
+                                }
+                            },
+                            "name": {
+                                "_id_": 8090,
+                                "_type": "String",
+                                "value_": "ad"
+                            },
+                            "autoReload": {
+                                "_id_": 8091,
+                                "_type": "Boolean",
+                                "value_": true
+                            }
                         }
                     ]
                 },
