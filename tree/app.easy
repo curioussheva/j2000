@@ -1336,30 +1336,46 @@
                 "_id_": 3194,
                 "_type": "LayoutResource",
                 "view": {
-                    "_id_": 3195,
-                    "_type": "WebView",
-                    "includeApi": {
-                        "_id_": 3196,
-                        "_type": "WebView.Api",
-                        "webView": {
-                            "_id_": 3197,
-                            "_type": "Boolean",
-                            "value_": true
-                        }
-                    },
+                    "_id_": 6105,
+                    "_type": "AdMob.AdView",
                     "id": {
-                        "_id_": 3198,
+                        "_id_": 6106,
                         "_type": "String",
                         "value_": ""
                     },
-                    "url": {
-                        "_id_": 3199,
-                        "_type": "URL",
-                        "url": {
-                            "_id_": 3200,
+                    "adUnit": {
+                        "_id_": 6107,
+                        "_type": "AdMob.AdUnitReference",
+                        "name": {
+                            "_id_": 6108,
                             "_type": "String",
-                            "value_": "contact.jsp"
+                            "value_": "MyBanner"
                         }
+                    },
+                    "adSize": {
+                        "_id_": 6109,
+                        "_type": "AdMob.AdSize",
+                        "value_": "SMART_BANNER"
+                    },
+                    "android:layout_width": {
+                        "_id_": 6110,
+                        "_type": "View.SpecialDimension",
+                        "value_": "wrap_content"
+                    },
+                    "android:layout_height": {
+                        "_id_": 6111,
+                        "_type": "View.SpecialDimension",
+                        "value_": "wrap_content"
+                    },
+                    "android:layout_gravity": {
+                        "_id_": 6112,
+                        "_type": "Gravity",
+                        "value_": "center_horizontal"
+                    },
+                    "android:layout_weight": {
+                        "_id_": 6113,
+                        "_type": "Integer",
+                        "value_": 0
                     }
                 },
                 "name": {
