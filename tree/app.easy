@@ -762,21 +762,46 @@
                     }
                 },
                 "contentView": {
-                    "_id_": 94,
-                    "_type": "WebView",
+                    "_id_": 5769,
+                    "_type": "AdMob.AdView",
                     "id": {
-                        "_id_": 95,
+                        "_id_": 5770,
                         "_type": "String",
-                        "value_": "youtube"
+                        "value_": ""
                     },
-                    "url": {
-                        "_id_": 96,
-                        "_type": "URL",
-                        "url": {
-                            "_id_": 97,
+                    "adUnit": {
+                        "_id_": 5771,
+                        "_type": "AdMob.AdUnitReference",
+                        "name": {
+                            "_id_": 5772,
                             "_type": "String",
-                            "value_": "youtube.html"
+                            "value_": "MyBanner"
                         }
+                    },
+                    "adSize": {
+                        "_id_": 5773,
+                        "_type": "AdMob.AdSize",
+                        "value_": "SMART_BANNER"
+                    },
+                    "android:layout_width": {
+                        "_id_": 5774,
+                        "_type": "View.SpecialDimension",
+                        "value_": "wrap_content"
+                    },
+                    "android:layout_height": {
+                        "_id_": 5775,
+                        "_type": "View.SpecialDimension",
+                        "value_": "wrap_content"
+                    },
+                    "android:layout_gravity": {
+                        "_id_": 5776,
+                        "_type": "Gravity",
+                        "value_": "center_horizontal"
+                    },
+                    "android:layout_weight": {
+                        "_id_": 5777,
+                        "_type": "Integer",
+                        "value_": 0
                     }
                 },
                 "background": {
