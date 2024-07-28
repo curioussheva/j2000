@@ -6,6 +6,26 @@
         "_type": "App.Features",
         "list_": [
             {
+                "_id_": 4460,
+                "_type": "Variable",
+                "init": {
+                    "_id_": 4461,
+                    "_type": "Integer",
+                    "value_": 4
+                },
+                "name": {
+                    "_id_": 4462,
+                    "_type": "String",
+                    "value_": "adFrequency"
+                },
+                "comment": {
+                    "_id_": 4463,
+                    "_type": "Comment",
+                    "list_": [],
+                    "text_": "Show an interstitial ad on every 4th page load\n"
+                }
+            },
+            {
                 "_id_": 3,
                 "_type": "Activity",
                 "features": {
@@ -1319,22 +1339,71 @@
         }
     },
     "adMob": {
-        "_id_": 3822,
+        "_id_": 4133,
         "_type": "AdMob",
         "appId": {
-            "_id_": 3823,
+            "_id_": 4134,
             "_type": "String",
             "value_": "test"
         },
         "testDevices": {
-            "_id_": 3825,
+            "_id_": 4135,
             "_type": "List",
-            "list_": []
+            "list_": [],
+            "elementType_": "AdMob.TestDevice"
+        },
+        "comment": {
+            "_id_": 4136,
+            "_type": "Comment",
+            "list_": [],
+            "text_": "Replace appId value with your own. You can find it in Google AdMob console in app settings."
         },
         "adUnits": {
-            "_id_": 3827,
+            "_id_": 4137,
             "_type": "List",
-            "list_": []
+            "list_": [
+                {
+                    "_id_": 4138,
+                    "_type": "AdMob.AdUnit",
+                    "name": {
+                        "_id_": 4139,
+                        "_type": "String",
+                        "value_": "MyInterstitial"
+                    },
+                    "unitId": {
+                        "_id_": 4140,
+                        "_type": "String",
+                        "value_": "test"
+                    },
+                    "comment": {
+                        "_id_": 4141,
+                        "_type": "Comment",
+                        "list_": [],
+                        "text_": "This is the ad unit for an interstitial ad. Replace unitId value with your own. You can find it in Google AdMob console on ad units page."
+                    }
+                },
+                {
+                    "_id_": 4142,
+                    "_type": "AdMob.AdUnit",
+                    "name": {
+                        "_id_": 4143,
+                        "_type": "String",
+                        "value_": "MyBanner"
+                    },
+                    "unitId": {
+                        "_id_": 4144,
+                        "_type": "String",
+                        "value_": "test"
+                    },
+                    "comment": {
+                        "_id_": 4145,
+                        "_type": "Comment",
+                        "list_": [],
+                        "text_": "This is the ad unit for a banner ad. Replace unitId value with your own. You can find it in Google AdMob console on ad units page."
+                    }
+                }
+            ],
+            "elementType_": "AdMob.AdUnit"
         }
     },
     "packaging": {
