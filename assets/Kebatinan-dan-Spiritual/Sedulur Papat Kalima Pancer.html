@@ -75,8 +75,39 @@
 .show {display: block;}
 </style>
   
- <img src="file:///assets/images/Clip-1-1.JPG">
- <h2>Kanuragan & Tenaga Dalam</h2>
+<script>
+/* When the user clicks on the button,
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+function filterFunction() {
+  const input = document.getElementById("myInput");
+  const filter = input.value.toUpperCase();
+  const div = document.getElementById("myDropdown");
+  const a = div.getElementsByTagName("a");
+  for (let i = 0; i < a.length; i++) {
+    txtValue = a[i].textContent || a[i].innerText;
+    if (txtValue.toUpperCase().indexOf(filter) > -1) {
+      a[i].style.display = "";
+    } else {
+      a[i].style.display = "none";
+    }
+  }
+}
+
+</script>
+</section>
+<article>
+ 
+<tbody>
+<tr>
+ <td style="width:658px;height:156px">
+ <div style="display:inline;margin:5px 10px 0pt 0pt;float:left">
+ <a href="file:///assets/images/Meditasi.2jpg.jpg?attredirects=0" imageanchor="1" target="_blank"><img border="0" src="file:///assets/images/Meditasi.2jpg.jpg"></a>
+ </div> <br><br><br><br><h2 style="text-align:center"><a name="TOC-Sedulur-Papat-Lan-Kalima-Pancer-"></a><font size="5"><u><i>Sedulur Papat&nbsp; Lan&nbsp; Kalima Pancer</i></u><i>&nbsp;&nbsp; </i><u><i><br></i></u></font></h2> </td>
+                      </tr>
 <div class="dropdown">
   <button onclick="myFunction()" class="dropbtn">Artikel lainnya</button>
   <div id="myDropdown" class="dropdown-content">
@@ -362,39 +393,7 @@ Ngobrol 11 - 6</a>
   </div>
 </div>
   
-<script>
-/* When the user clicks on the button,
-toggle between hiding and showing the dropdown content */
-function myFunction() {
-  document.getElementById("myDropdown").classList.toggle("show");
-}
-
-function filterFunction() {
-  const input = document.getElementById("myInput");
-  const filter = input.value.toUpperCase();
-  const div = document.getElementById("myDropdown");
-  const a = div.getElementsByTagName("a");
-  for (let i = 0; i < a.length; i++) {
-    txtValue = a[i].textContent || a[i].innerText;
-    if (txtValue.toUpperCase().indexOf(filter) > -1) {
-      a[i].style.display = "";
-    } else {
-      a[i].style.display = "none";
-    }
-  }
-}
-
-</script>
-</section>
-<article>
- 
-         <tbody>
-                      <tr>
-                       <td style="width:658px;height:156px">
-                        <div style="display:inline;margin:5px 10px 0pt 0pt;float:left">
-                         <a href="https://sites.google.com/site/thomchrists/Kebatinan-dan-Spiritual/sedulur-papat-kalima-pancer/Meditasi.2jpg.jpg?attredirects=0" imageanchor="1" target="_blank"><img border="0" src="https://sites.google.com/site/thomchrists/_/rsrc/1357581070728/Kebatinan-dan-Spiritual/sedulur-papat-kalima-pancer/Meditasi.2jpg.jpg"></a>
-                        </div> <br><br><br><br><h2 style="text-align:center"><a name="TOC-Sedulur-Papat-Lan-Kalima-Pancer-"></a><font size="5"><u><i>Sedulur Papat&nbsp; Lan&nbsp; Kalima Pancer</i></u><i>&nbsp;&nbsp; </i><u><i><br></i></u></font></h2> </td>
-                      </tr>
+                      
                       <tr>
                        <td style="width:658px;height:12947px"><br><br><br>
                         <div style="font-family:arial,helvetica,sans-serif">
