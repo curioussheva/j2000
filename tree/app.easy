@@ -1298,6 +1298,15 @@
                 "view": {
                     "_id_": 8122,
                     "_type": "WebView",
+                    "includeApi": {
+                        "_id_": 8139,
+                        "_type": "WebView.Api",
+                        "webView": {
+                            "_id_": 8144,
+                            "_type": "Boolean",
+                            "value_": true
+                        }
+                    },
                     "webViewClient": {
                         "_id_": 8123,
                         "_type": "WebView.WebViewClient",
@@ -1333,15 +1342,15 @@
                     "id": {
                         "_id_": 8130,
                         "_type": "String",
-                        "value_": "webView"
+                        "value_": ""
                     },
-                    "urlValue": {
-                        "_id_": 8131,
-                        "_type": "Variable.Get",
-                        "name": {
-                            "_id_": 8132,
+                    "url": {
+                        "_id_": 8136,
+                        "_type": "URL",
+                        "url": {
+                            "_id_": 8137,
                             "_type": "String",
-                            "value_": "home. html"
+                            "value_": "home. htnl"
                         }
                     }
                 },
