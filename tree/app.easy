@@ -31,44 +31,6 @@
                             }
                         },
                         {
-                            "_id_": 4782,
-                            "_type": "Variable",
-                            "init": {
-                                "_id_": 4783,
-                                "_type": "Integer",
-                                "value_": 4
-                            },
-                            "name": {
-                                "_id_": 4784,
-                                "_type": "String",
-                                "value_": "adFrequency"
-                            },
-                            "comment": {
-                                "_id_": 4785,
-                                "_type": "Comment",
-                                "list_": [],
-                                "text_": "Show an interstitial ad on every 4th page load\n"
-                            }
-                        },
-                        {
-                            "_id_": 8672,
-                            "_type": "Variable",
-                            "init": {
-                                "_id_": 8673,
-                                "_type": "Expression",
-                                "text": {
-                                    "_id_": 8674,
-                                    "_type": "String",
-                                    "value_": "0"
-                                }
-                            },
-                            "name": {
-                                "_id_": 8675,
-                                "_type": "String",
-                                "value_": "counter"
-                            }
-                        },
-                        {
                             "_id_": 8107,
                             "_type": "AdMob.InterstitialAd",
                             "adUnit": {
