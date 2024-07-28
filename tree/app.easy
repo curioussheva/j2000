@@ -11,49 +11,7 @@
                 "features": {
                     "_id_": 4,
                     "_type": "Activity.Features",
-                    "list_": [
-                        {
-                            "_id_": 8107,
-                            "_type": "AdMob.InterstitialAd",
-                            "adUnit": {
-                                "_id_": 8108,
-                                "_type": "AdMob.AdUnitReference",
-                                "name": {
-                                    "_id_": 8109,
-                                    "_type": "String",
-                                    "value_": "MyInterstitial"
-                                }
-                            },
-                            "name": {
-                                "_id_": 8110,
-                                "_type": "String",
-                                "value_": "ad"
-                            },
-                            "autoReload": {
-                                "_id_": 8111,
-                                "_type": "Boolean",
-                                "value_": true
-                            }
-                        },
-                        {
-                            "_id_": 5104,
-                            "_type": "Variable",
-                            "init": {
-                                "_id_": 5105,
-                                "_type": "Expression",
-                                "text": {
-                                    "_id_": 5106,
-                                    "_type": "String",
-                                    "value_": "0"
-                                }
-                            },
-                            "name": {
-                                "_id_": 5107,
-                                "_type": "String",
-                                "value_": "counter"
-                            }
-                        }
-                    ]
+                    "list_": []
                 },
                 "handleConfigChanges": {
                     "_id_": 5,
