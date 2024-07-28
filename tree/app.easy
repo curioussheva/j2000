@@ -13,6 +13,29 @@
                     "_type": "Activity.Features",
                     "list_": [
                         {
+                            "_id_": 8107,
+                            "_type": "AdMob.InterstitialAd",
+                            "adUnit": {
+                                "_id_": 8108,
+                                "_type": "AdMob.AdUnitReference",
+                                "name": {
+                                    "_id_": 8109,
+                                    "_type": "String",
+                                    "value_": "MyInterstitial"
+                                }
+                            },
+                            "name": {
+                                "_id_": 8110,
+                                "_type": "String",
+                                "value_": "ad"
+                            },
+                            "autoReload": {
+                                "_id_": 8111,
+                                "_type": "Boolean",
+                                "value_": true
+                            }
+                        },
+                        {
                             "_id_": 5104,
                             "_type": "Variable",
                             "init": {
@@ -744,6 +767,29 @@
                     "_type": "Activity.Features",
                     "list_": [
                         {
+                            "_id_": 8097,
+                            "_type": "AdMob.InterstitialAd",
+                            "adUnit": {
+                                "_id_": 8098,
+                                "_type": "AdMob.AdUnitReference",
+                                "name": {
+                                    "_id_": 8099,
+                                    "_type": "String",
+                                    "value_": "MyInterstitial"
+                                }
+                            },
+                            "name": {
+                                "_id_": 8100,
+                                "_type": "String",
+                                "value_": "ad"
+                            },
+                            "autoReload": {
+                                "_id_": 8101,
+                                "_type": "Boolean",
+                                "value_": true
+                            }
+                        },
+                        {
                             "_id_": 7286,
                             "_type": "Variable",
                             "init": {
@@ -1250,29 +1296,52 @@
                 "_id_": 525,
                 "_type": "LayoutResource",
                 "view": {
-                    "_id_": 526,
+                    "_id_": 8122,
                     "_type": "WebView",
-                    "includeApi": {
-                        "_id_": 527,
-                        "_type": "WebView.Api",
-                        "webView": {
-                            "_id_": 528,
-                            "_type": "Boolean",
-                            "value_": true
+                    "webViewClient": {
+                        "_id_": 8123,
+                        "_type": "WebView.WebViewClient",
+                        "onPageStarted": {
+                            "_id_": 8124,
+                            "_type": "Sequence",
+                            "list_": [
+                                {
+                                    "_id_": 8125,
+                                    "_type": "CheckValue",
+                                    "onZero": {
+                                        "_id_": 8126,
+                                        "_type": "AdMob.Show",
+                                        "name": {
+                                            "_id_": 8127,
+                                            "_type": "String",
+                                            "value_": "ad"
+                                        }
+                                    },
+                                    "value": {
+                                        "_id_": 8128,
+                                        "_type": "Expression",
+                                        "text": {
+                                            "_id_": 8129,
+                                            "_type": "String",
+                                            "value_": "(counter++)%adFrequency"
+                                        }
+                                    }
+                                }
+                            ]
                         }
                     },
                     "id": {
-                        "_id_": 529,
+                        "_id_": 8130,
                         "_type": "String",
-                        "value_": ""
+                        "value_": "webView"
                     },
-                    "url": {
-                        "_id_": 530,
-                        "_type": "URL",
-                        "url": {
-                            "_id_": 531,
+                    "urlValue": {
+                        "_id_": 8131,
+                        "_type": "Variable.Get",
+                        "name": {
+                            "_id_": 8132,
                             "_type": "String",
-                            "value_": "home.html"
+                            "value_": "home. html"
                         }
                     }
                 },
