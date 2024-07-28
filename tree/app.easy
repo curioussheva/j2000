@@ -705,6 +705,30 @@
                     "_type": "Activity.Features",
                     "list_": [
                         {
+                            "_id_": 9942,
+                            "_type": "Variable",
+                            "init": {
+                                "_id_": 9943,
+                                "_type": "String.Text",
+                                "value": {
+                                    "_id_": 9944,
+                                    "_type": "String",
+                                    "value_": "https:\/\/google.com"
+                                }
+                            },
+                            "name": {
+                                "_id_": 9945,
+                                "_type": "String",
+                                "value_": "URL"
+                            },
+                            "comment": {
+                                "_id_": 9946,
+                                "_type": "Comment",
+                                "list_": [],
+                                "text_": "Change it to what you need."
+                            }
+                        },
+                        {
                             "_id_": 9543,
                             "_type": "Variable",
                             "init": {
