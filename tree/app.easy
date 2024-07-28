@@ -1318,6 +1318,25 @@
             "_type": "App.Settings.ReleaseBuild"
         }
     },
+    "adMob": {
+        "_id_": 3822,
+        "_type": "AdMob",
+        "appId": {
+            "_id_": 3823,
+            "_type": "String",
+            "value_": "test"
+        },
+        "testDevices": {
+            "_id_": 3825,
+            "_type": "List",
+            "list_": []
+        },
+        "adUnits": {
+            "_id_": 3827,
+            "_type": "List",
+            "list_": []
+        }
+    },
     "packaging": {
         "_id_": 142,
         "_type": "App.Packaging",
