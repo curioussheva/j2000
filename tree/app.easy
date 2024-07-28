@@ -705,6 +705,26 @@
                     "_type": "Activity.Features",
                     "list_": [
                         {
+                            "_id_": 9543,
+                            "_type": "Variable",
+                            "init": {
+                                "_id_": 9544,
+                                "_type": "Integer",
+                                "value_": 4
+                            },
+                            "name": {
+                                "_id_": 9545,
+                                "_type": "String",
+                                "value_": "adFrequency"
+                            },
+                            "comment": {
+                                "_id_": 9546,
+                                "_type": "Comment",
+                                "list_": [],
+                                "text_": "Show an interstitial ad on every 4th page load\n"
+                            }
+                        },
+                        {
                             "_id_": 9140,
                             "_type": "Variable",
                             "init": {
