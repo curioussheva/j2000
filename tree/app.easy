@@ -55,7 +55,49 @@
                 "features": {
                     "_id_": 4,
                     "_type": "Activity.Features",
-                    "list_": []
+                    "list_": [
+                        {
+                            "_id_": 10761,
+                            "_type": "Variable",
+                            "init": {
+                                "_id_": 10762,
+                                "_type": "Expression",
+                                "text": {
+                                    "_id_": 10763,
+                                    "_type": "String",
+                                    "value_": "0"
+                                }
+                            },
+                            "name": {
+                                "_id_": 10764,
+                                "_type": "String",
+                                "value_": "counter"
+                            }
+                        },
+                        {
+                            "_id_": 10769,
+                            "_type": "AdMob.InterstitialAd",
+                            "adUnit": {
+                                "_id_": 10770,
+                                "_type": "AdMob.AdUnitReference",
+                                "name": {
+                                    "_id_": 10771,
+                                    "_type": "String",
+                                    "value_": "MyInterstitial"
+                                }
+                            },
+                            "name": {
+                                "_id_": 10772,
+                                "_type": "String",
+                                "value_": "ad"
+                            },
+                            "autoReload": {
+                                "_id_": 10773,
+                                "_type": "Boolean",
+                                "value_": true
+                            }
+                        }
+                    ]
                 },
                 "handleConfigChanges": {
                     "_id_": 5,
@@ -748,24 +790,6 @@
                     "_id_": 89,
                     "_type": "Activity.Features",
                     "list_": [
-                        {
-                            "_id_": 9140,
-                            "_type": "Variable",
-                            "init": {
-                                "_id_": 9141,
-                                "_type": "Expression",
-                                "text": {
-                                    "_id_": 9142,
-                                    "_type": "String",
-                                    "value_": "0"
-                                }
-                            },
-                            "name": {
-                                "_id_": 9143,
-                                "_type": "String",
-                                "value_": "counter"
-                            }
-                        },
                         {
                             "_id_": 8087,
                             "_type": "AdMob.InterstitialAd",
