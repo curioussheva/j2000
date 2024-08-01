@@ -108,379 +108,379 @@
                     "_type": "Theme.Material.DayNight"
                 },
                 "drawer": {
-                    "_id_": 13598,
+                    "_id_": 7,
                     "_type": "Drawer",
                     "id": {
-                        "_id_": 13599,
+                        "_id_": 8,
                         "_type": "String",
                         "value_": ""
                     },
                     "views": {
-                        "_id_": 13600,
+                        "_id_": 9,
                         "_type": "ViewList",
                         "list_": []
                     },
                     "menu": {
-                        "_id_": 13601,
+                        "_id_": 10,
                         "_type": "Drawer.NativeMenu",
                         "defaultItem": {
-                            "_id_": 13602,
+                            "_id_": 11,
                             "_type": "IdReference",
                             "ref": {
-                                "_id_": 13603,
+                                "_id_": 12,
                                 "_type": "String",
                                 "value_": "@id\/home"
                             }
                         },
                         "id": {
-                            "_id_": 13604,
+                            "_id_": 13,
                             "_type": "String",
                             "value_": "dm"
                         },
                         "views": {
-                            "_id_": 13605,
+                            "_id_": 14,
                             "_type": "ViewList",
                             "list_": []
                         },
                         "menu": {
-                            "_id_": 13606,
+                            "_id_": 311,
                             "_type": "Menu",
                             "items": {
-                                "_id_": 13607,
+                                "_id_": 312,
                                 "_type": "List",
                                 "list_": [
                                     {
-                                        "_id_": 13608,
+                                        "_id_": 313,
                                         "_type": "Menu.Item",
                                         "checkable": {
-                                            "_id_": 13609,
+                                            "_id_": 314,
                                             "_type": "Boolean",
                                             "value_": true
                                         },
                                         "icon": {
-                                            "_id_": 13610,
+                                            "_id_": 315,
                                             "_type": "DrawableReference",
                                             "ref": {
-                                                "_id_": 13611,
+                                                "_id_": 316,
                                                 "_type": "String",
                                                 "value_": "@drawable\/home"
                                             }
                                         },
                                         "title": {
-                                            "_id_": 13612,
+                                            "_id_": 317,
                                             "_type": "String",
                                             "value_": "Welcome to Javanese2000\n\n"
                                         },
                                         "action": {
-                                            "_id_": 13613,
+                                            "_id_": 318,
                                             "_type": "LayoutReference",
                                             "ref": {
-                                                "_id_": 13614,
+                                                "_id_": 319,
                                                 "_type": "String",
                                                 "value_": "@layout\/page1"
                                             }
                                         },
                                         "id": {
-                                            "_id_": 13615,
+                                            "_id_": 320,
                                             "_type": "String",
                                             "value_": "home"
                                         }
                                     },
                                     {
-                                        "_id_": 13616,
+                                        "_id_": 1730,
                                         "_type": "Menu.Item",
                                         "checkable": {
-                                            "_id_": 13617,
+                                            "_id_": 1759,
                                             "_type": "Boolean",
                                             "value_": true
                                         },
                                         "icon": {
-                                            "_id_": 13618,
+                                            "_id_": 1760,
                                             "_type": "DrawableReference",
                                             "ref": {
-                                                "_id_": 13619,
+                                                "_id_": 1761,
                                                 "_type": "String",
                                                 "value_": "@drawable\/daftar_isi"
                                             }
                                         },
                                         "title": {
-                                            "_id_": 13620,
+                                            "_id_": 1762,
                                             "_type": "String",
                                             "value_": "Daftar isi"
                                         },
                                         "action": {
-                                            "_id_": 13621,
+                                            "_id_": 1763,
                                             "_type": "LayoutReference",
                                             "ref": {
-                                                "_id_": 13622,
+                                                "_id_": 1764,
                                                 "_type": "String",
                                                 "value_": "@layout\/page2"
                                             }
                                         },
                                         "id": {
-                                            "_id_": 13623,
+                                            "_id_": 1765,
                                             "_type": "String",
                                             "value_": "daftar_isi"
                                         }
                                     },
                                     {
-                                        "_id_": 13624,
+                                        "_id_": 321,
                                         "_type": "Menu.Item",
                                         "subMenu": {
-                                            "_id_": 13625,
+                                            "_id_": 1186,
                                             "_type": "Menu",
                                             "items": {
-                                                "_id_": 13626,
+                                                "_id_": 1188,
                                                 "_type": "List",
                                                 "list_": [
                                                     {
-                                                        "_id_": 13627,
+                                                        "_id_": 1190,
                                                         "_type": "Menu.Item",
                                                         "checkable": {
-                                                            "_id_": 13628,
+                                                            "_id_": 1363,
                                                             "_type": "Boolean",
                                                             "value_": true
                                                         },
                                                         "title": {
-                                                            "_id_": 13629,
+                                                            "_id_": 1192,
                                                             "_type": "String",
                                                             "value_": "Seputar Budaya Kebatinan Jawa"
                                                         },
                                                         "action": {
-                                                            "_id_": 13630,
+                                                            "_id_": 1359,
                                                             "_type": "LayoutReference",
                                                             "ref": {
-                                                                "_id_": 13631,
+                                                                "_id_": 1360,
                                                                 "_type": "String",
                                                                 "value_": "@layout\/page3"
                                                             }
                                                         },
                                                         "id": {
-                                                            "_id_": 13632,
+                                                            "_id_": 1194,
                                                             "_type": "String",
                                                             "value_": "page1"
                                                         }
                                                     },
                                                     {
-                                                        "_id_": 13633,
+                                                        "_id_": 1547,
                                                         "_type": "Menu.Item",
                                                         "checkable": {
-                                                            "_id_": 13634,
+                                                            "_id_": 1952,
                                                             "_type": "Boolean",
                                                             "value_": true
                                                         },
                                                         "title": {
-                                                            "_id_": 13635,
+                                                            "_id_": 1548,
                                                             "_type": "String",
                                                             "value_": "Kebatinan dan Spiritual"
                                                         },
                                                         "action": {
-                                                            "_id_": 13636,
+                                                            "_id_": 1549,
                                                             "_type": "LayoutReference",
                                                             "ref": {
-                                                                "_id_": 13637,
+                                                                "_id_": 1550,
                                                                 "_type": "String",
                                                                 "value_": "@layout\/page4"
                                                             }
                                                         },
                                                         "id": {
-                                                            "_id_": 13638,
+                                                            "_id_": 1551,
                                                             "_type": "String",
                                                             "value_": "page2"
                                                         }
                                                     },
                                                     {
-                                                        "_id_": 13639,
+                                                        "_id_": 1537,
                                                         "_type": "Menu.Item",
                                                         "checkable": {
-                                                            "_id_": 13640,
+                                                            "_id_": 1953,
                                                             "_type": "Boolean",
                                                             "value_": true
                                                         },
                                                         "title": {
-                                                            "_id_": 13641,
+                                                            "_id_": 1538,
                                                             "_type": "String",
                                                             "value_": "Kebatinan & Spiritual Ketuhanan"
                                                         },
                                                         "action": {
-                                                            "_id_": 13642,
+                                                            "_id_": 1539,
                                                             "_type": "LayoutReference",
                                                             "ref": {
-                                                                "_id_": 13643,
+                                                                "_id_": 1540,
                                                                 "_type": "String",
                                                                 "value_": "@layout\/page5"
                                                             }
                                                         },
                                                         "id": {
-                                                            "_id_": 13644,
+                                                            "_id_": 1541,
                                                             "_type": "String",
                                                             "value_": "page3"
                                                         }
                                                     },
                                                     {
-                                                        "_id_": 13645,
+                                                        "_id_": 1527,
                                                         "_type": "Menu.Item",
                                                         "checkable": {
-                                                            "_id_": 13646,
+                                                            "_id_": 1954,
                                                             "_type": "Boolean",
                                                             "value_": true
                                                         },
                                                         "title": {
-                                                            "_id_": 13647,
+                                                            "_id_": 1528,
                                                             "_type": "String",
                                                             "value_": "Spiritual & Kebatinan Keris Jawa"
                                                         },
                                                         "action": {
-                                                            "_id_": 13648,
+                                                            "_id_": 1529,
                                                             "_type": "LayoutReference",
                                                             "ref": {
-                                                                "_id_": 13649,
+                                                                "_id_": 1530,
                                                                 "_type": "String",
                                                                 "value_": "@layout\/page6"
                                                             }
                                                         },
                                                         "id": {
-                                                            "_id_": 13650,
+                                                            "_id_": 1531,
                                                             "_type": "String",
                                                             "value_": "page4"
                                                         }
                                                     },
                                                     {
-                                                        "_id_": 13651,
+                                                        "_id_": 1956,
                                                         "_type": "Menu.Item",
                                                         "checkable": {
-                                                            "_id_": 13652,
+                                                            "_id_": 1957,
                                                             "_type": "Boolean",
                                                             "value_": true
                                                         },
                                                         "title": {
-                                                            "_id_": 13653,
+                                                            "_id_": 1958,
                                                             "_type": "String",
                                                             "value_": "Benda-Benda Gaib dan Bertuah"
                                                         },
                                                         "action": {
-                                                            "_id_": 13654,
+                                                            "_id_": 1959,
                                                             "_type": "LayoutReference",
                                                             "ref": {
-                                                                "_id_": 13655,
+                                                                "_id_": 1960,
                                                                 "_type": "String",
                                                                 "value_": "@layout\/page7"
                                                             }
                                                         },
                                                         "id": {
-                                                            "_id_": 13656,
+                                                            "_id_": 1961,
                                                             "_type": "String",
                                                             "value_": "page5"
                                                         }
                                                     },
                                                     {
-                                                        "_id_": 13657,
+                                                        "_id_": 1196,
                                                         "_type": "Menu.Item",
                                                         "checkable": {
-                                                            "_id_": 13658,
+                                                            "_id_": 1955,
                                                             "_type": "Boolean",
                                                             "value_": true
                                                         },
                                                         "title": {
-                                                            "_id_": 13659,
+                                                            "_id_": 1198,
                                                             "_type": "String",
                                                             "value_": "Dunia Gaib dan Mahluk Halus"
                                                         },
                                                         "action": {
-                                                            "_id_": 13660,
+                                                            "_id_": 1361,
                                                             "_type": "LayoutReference",
                                                             "ref": {
-                                                                "_id_": 13661,
+                                                                "_id_": 1362,
                                                                 "_type": "String",
                                                                 "value_": "@layout\/page8"
                                                             }
                                                         },
                                                         "id": {
-                                                            "_id_": 13662,
+                                                            "_id_": 1200,
                                                             "_type": "String",
                                                             "value_": "page6"
                                                         }
                                                     },
                                                     {
-                                                        "_id_": 13663,
+                                                        "_id_": 1968,
                                                         "_type": "Menu.Item",
                                                         "checkable": {
-                                                            "_id_": 13664,
+                                                            "_id_": 1969,
                                                             "_type": "Boolean",
                                                             "value_": true
                                                         },
                                                         "title": {
-                                                            "_id_": 13665,
+                                                            "_id_": 1970,
                                                             "_type": "String",
                                                             "value_": "Dongeng Tanah Jawa"
                                                         },
                                                         "action": {
-                                                            "_id_": 13666,
+                                                            "_id_": 1971,
                                                             "_type": "LayoutReference",
                                                             "ref": {
-                                                                "_id_": 13667,
+                                                                "_id_": 1972,
                                                                 "_type": "String",
                                                                 "value_": "@layout\/page9"
                                                             }
                                                         },
                                                         "id": {
-                                                            "_id_": 13668,
+                                                            "_id_": 1973,
                                                             "_type": "String",
                                                             "value_": "page7"
                                                         }
                                                     },
                                                     {
-                                                        "_id_": 13669,
+                                                        "_id_": 1980,
                                                         "_type": "Menu.Item",
                                                         "checkable": {
-                                                            "_id_": 13670,
+                                                            "_id_": 1981,
                                                             "_type": "Boolean",
                                                             "value_": true
                                                         },
                                                         "title": {
-                                                            "_id_": 13671,
+                                                            "_id_": 1982,
                                                             "_type": "String",
                                                             "value_": "Artikel Lain-Lain"
                                                         },
                                                         "action": {
-                                                            "_id_": 13672,
+                                                            "_id_": 1983,
                                                             "_type": "LayoutReference",
                                                             "ref": {
-                                                                "_id_": 13673,
+                                                                "_id_": 1984,
                                                                 "_type": "String",
                                                                 "value_": "@layout\/page10"
                                                             }
                                                         },
                                                         "id": {
-                                                            "_id_": 13674,
+                                                            "_id_": 1985,
                                                             "_type": "String",
                                                             "value_": "page8"
                                                         }
                                                     },
                                                     {
-                                                        "_id_": 13675,
+                                                        "_id_": 1992,
                                                         "_type": "Menu.Item",
                                                         "checkable": {
-                                                            "_id_": 13676,
+                                                            "_id_": 1993,
                                                             "_type": "Boolean",
                                                             "value_": true
                                                         },
                                                         "title": {
-                                                            "_id_": 13677,
+                                                            "_id_": 1994,
                                                             "_type": "String",
                                                             "value_": "Artikel Oleh Penulis Lain"
                                                         },
                                                         "action": {
-                                                            "_id_": 13678,
+                                                            "_id_": 1995,
                                                             "_type": "LayoutReference",
                                                             "ref": {
-                                                                "_id_": 13679,
+                                                                "_id_": 1996,
                                                                 "_type": "String",
                                                                 "value_": "@layout\/page11"
                                                             }
                                                         },
                                                         "id": {
-                                                            "_id_": 13680,
+                                                            "_id_": 1997,
                                                             "_type": "String",
                                                             "value_": "page9"
                                                         }
@@ -490,176 +490,135 @@
                                             }
                                         },
                                         "checkable": {
-                                            "_id_": 13681,
+                                            "_id_": 322,
                                             "_type": "Boolean",
                                             "value_": true
                                         },
                                         "icon": {
-                                            "_id_": 13682,
+                                            "_id_": 323,
                                             "_type": "DrawableReference",
                                             "ref": {
-                                                "_id_": 13683,
+                                                "_id_": 324,
                                                 "_type": "String",
                                                 "value_": "@drawable\/daftarisi"
                                             }
                                         },
                                         "title": {
-                                            "_id_": 13684,
+                                            "_id_": 325,
                                             "_type": "String",
                                             "value_": "Katagori"
                                         },
                                         "action": {
-                                            "_id_": 13685,
+                                            "_id_": 326,
                                             "_type": "LayoutReference",
                                             "ref": {
-                                                "_id_": 13686,
+                                                "_id_": 327,
                                                 "_type": "String",
                                                 "value_": "@layout\/page2"
                                             }
                                         },
                                         "id": {
-                                            "_id_": 13687,
+                                            "_id_": 328,
                                             "_type": "String",
                                             "value_": "Katagori"
                                         }
                                     },
                                     {
-                                        "_id_": 13688,
+                                        "_id_": 337,
                                         "_type": "Menu.Item",
                                         "subMenu": {
-                                            "_id_": 13689,
+                                            "_id_": 338,
                                             "_type": "Menu",
                                             "items": {
-                                                "_id_": 13690,
+                                                "_id_": 339,
                                                 "_type": "List",
                                                 "list_": [
                                                     {
-                                                        "_id_": 13691,
+                                                        "_id_": 340,
                                                         "_type": "Menu.Item",
                                                         "title": {
-                                                            "_id_": 13692,
+                                                            "_id_": 341,
                                                             "_type": "String",
                                                             "value_": "Browser"
                                                         },
                                                         "action": {
-                                                            "_id_": 13693,
+                                                            "_id_": 342,
                                                             "_type": "Activity.Start",
                                                             "intent": {
-                                                                "_id_": 13694,
+                                                                "_id_": 343,
                                                                 "_type": "Intent",
                                                                 "data": {
-                                                                    "_id_": 13695,
+                                                                    "_id_": 344,
                                                                     "_type": "String",
                                                                     "value_": "https:\/\/google.com"
                                                                 },
                                                                 "action": {
-                                                                    "_id_": 13696,
+                                                                    "_id_": 345,
                                                                     "_type": "String",
                                                                     "value_": "ACTION_VIEW"
                                                                 }
                                                             }
                                                         },
                                                         "id": {
-                                                            "_id_": 13697,
+                                                            "_id_": 346,
                                                             "_type": "String",
                                                             "value_": ""
                                                         }
                                                     },
                                                     {
-                                                        "_id_": 13698,
+                                                        "_id_": 347,
                                                         "_type": "Menu.Item",
                                                         "checkable": {
-                                                            "_id_": 13699,
+                                                            "_id_": 2906,
                                                             "_type": "Boolean",
                                                             "value_": true
                                                         },
                                                         "title": {
-                                                            "_id_": 13700,
+                                                            "_id_": 348,
                                                             "_type": "String",
                                                             "value_": "Hubungi kami"
                                                         },
                                                         "action": {
-                                                            "_id_": 13701,
+                                                            "_id_": 2904,
                                                             "_type": "LayoutReference",
                                                             "ref": {
-                                                                "_id_": 13702,
+                                                                "_id_": 2905,
                                                                 "_type": "String",
                                                                 "value_": "@layout\/contact"
                                                             }
                                                         },
                                                         "id": {
-                                                            "_id_": 13703,
+                                                            "_id_": 351,
                                                             "_type": "String",
                                                             "value_": ""
                                                         }
                                                     },
                                                     {
-                                                        "_id_": 13704,
+                                                        "_id_": 3210,
                                                         "_type": "Menu.Item",
                                                         "checkable": {
-                                                            "_id_": 13705,
+                                                            "_id_": 3211,
                                                             "_type": "Boolean",
                                                             "value_": true
                                                         },
                                                         "title": {
-                                                            "_id_": 13706,
+                                                            "_id_": 3212,
                                                             "_type": "String",
                                                             "value_": "Hubungi kami"
                                                         },
                                                         "action": {
-                                                            "_id_": 13928,
-                                                            "_type": "ImageView.SetImage",
-                                                            "image": {
-                                                                "_id_": 13930,
-                                                                "_type": "DrawableReference",
-                                                                "ref": {
-                                                                    "_id_": 13932,
-                                                                    "_type": "String",
-                                                                    "value_": "@drawable\/keris_jawa_24"
-                                                                }
-                                                            },
-                                                            "view": {
-                                                                "_id_": 13934,
-                                                                "_type": "View.Reference",
-                                                                "ref": {
-                                                                    "_id_": 13936,
-                                                                    "_type": "String",
-                                                                    "value_": "@id\/dm"
-                                                                }
-                                                            }
-                                                        },
-                                                        "id": {
-                                                            "_id_": 13720,
-                                                            "_type": "String",
-                                                            "value_": ""
-                                                        }
-                                                    },
-                                                    {
-                                                        "_id_": 13721,
-                                                        "_type": "Menu.Item",
-                                                        "checkable": {
-                                                            "_id_": 13722,
-                                                            "_type": "Boolean",
-                                                            "value_": true
-                                                        },
-                                                        "title": {
-                                                            "_id_": 13723,
-                                                            "_type": "String",
-                                                            "value_": "gambar 1"
-                                                        },
-                                                        "action": {
-                                                            "_id_": 13724,
+                                                            "_id_": 3213,
                                                             "_type": "LayoutReference",
                                                             "ref": {
-                                                                "_id_": 13725,
+                                                                "_id_": 3214,
                                                                 "_type": "String",
-                                                                "value_": "@layout\/gambar1"
+                                                                "value_": "@layout\/contact1"
                                                             }
                                                         },
                                                         "id": {
-                                                            "_id_": 13726,
+                                                            "_id_": 3215,
                                                             "_type": "String",
-                                                            "value_": "gambar1"
+                                                            "value_": ""
                                                         }
                                                     }
                                                 ],
@@ -667,12 +626,12 @@
                                             }
                                         },
                                         "title": {
-                                            "_id_": 13727,
+                                            "_id_": 352,
                                             "_type": "String",
                                             "value_": "Extra Stuff"
                                         },
                                         "id": {
-                                            "_id_": 13728,
+                                            "_id_": 353,
                                             "_type": "String",
                                             "value_": ""
                                         }
@@ -682,103 +641,99 @@
                             }
                         },
                         "fragmentContainer": {
-                            "_id_": 13729,
+                            "_id_": 58,
                             "_type": "View.Reference",
                             "ref": {
-                                "_id_": 13730,
+                                "_id_": 59,
                                 "_type": "String",
                                 "value_": "@id\/content"
                             }
                         },
                         "initialSync": {
-                            "_id_": 13731,
+                            "_id_": 60,
                             "_type": "Boolean",
                             "value_": true
                         },
                         "android:background": {
-                            "_id_": 14381,
-                            "_type": "BitmapDrawable",
-                            "drawable": {
-                                "_id_": 14383,
-                                "_type": "DrawableReference",
-                                "ref": {
-                                    "_id_": 14385,
-                                    "_type": "String",
-                                    "value_": "@drawable\/bg"
-                                }
+                            "_id_": 61,
+                            "_type": "ColorReference",
+                            "ref": {
+                                "_id_": 62,
+                                "_type": "String",
+                                "value_": "@color\/drawerBackground"
                             }
                         }
                     },
                     "width": {
-                        "_id_": 13734,
+                        "_id_": 63,
                         "_type": "Dimension",
                         "unit": {
-                            "_id_": 13735,
+                            "_id_": 64,
                             "_type": "DimensionUnit",
                             "value_": "dp"
                         },
                         "value": {
-                            "_id_": 13736,
+                            "_id_": 65,
                             "_type": "Float",
                             "value_": 300
                         }
                     },
                     "header": {
-                        "_id_": 13737,
+                        "_id_": 66,
                         "_type": "ImageView",
                         "id": {
-                            "_id_": 13738,
+                            "_id_": 67,
                             "_type": "String",
                             "value_": ""
                         },
                         "android:layout_width": {
-                            "_id_": 13739,
+                            "_id_": 68,
                             "_type": "View.SpecialDimension",
                             "value_": "match_parent"
                         },
                         "android:background": {
-                            "_id_": 13740,
+                            "_id_": 707,
                             "_type": "Color",
                             "color_": -15653837
                         },
                         "android:layout_height": {
-                            "_id_": 13741,
+                            "_id_": 70,
                             "_type": "Dimension",
                             "unit": {
-                                "_id_": 13742,
+                                "_id_": 71,
                                 "_type": "DimensionUnit",
                                 "value_": "dp"
                             },
                             "value": {
-                                "_id_": 13743,
+                                "_id_": 72,
                                 "_type": "Float",
                                 "value_": 120
                             }
                         },
                         "android:scaleType": {
-                            "_id_": 13744,
+                            "_id_": 73,
                             "_type": "ImageView.ScaleType",
                             "value_": "fitCenter"
                         },
                         "android:padding": {
-                            "_id_": 13745,
+                            "_id_": 74,
                             "_type": "Dimension",
                             "unit": {
-                                "_id_": 13746,
+                                "_id_": 75,
                                 "_type": "DimensionUnit",
                                 "value_": "dp"
                             },
                             "value": {
-                                "_id_": 13747,
+                                "_id_": 76,
                                 "_type": "Float",
                                 "value_": 10
                             }
                         },
                         "android:src": {
-                            "_id_": 13748,
+                            "_id_": 77,
                             "_type": "DrawableReference",
                             "ref": {
-                                "_id_": 13749,
+                                "_id_": 78,
                                 "_type": "String",
                                 "value_": "@drawable\/header"
                             }
@@ -1732,97 +1687,55 @@
                 }
             },
             {
-                "_id_": 12082,
+                "_id_": 3194,
                 "_type": "LayoutResource",
                 "view": {
-                    "_id_": 12083,
+                    "_id_": 6105,
                     "_type": "AdMob.AdView",
                     "id": {
-                        "_id_": 12084,
+                        "_id_": 6106,
                         "_type": "String",
                         "value_": ""
                     },
                     "adUnit": {
-                        "_id_": 12085,
+                        "_id_": 6107,
                         "_type": "AdMob.AdUnitReference",
                         "name": {
-                            "_id_": 12086,
+                            "_id_": 6108,
                             "_type": "String",
                             "value_": "MyBanner"
                         }
                     },
                     "adSize": {
-                        "_id_": 12087,
+                        "_id_": 6109,
                         "_type": "AdMob.AdSize",
                         "value_": "SMART_BANNER"
                     },
                     "android:layout_width": {
-                        "_id_": 12088,
+                        "_id_": 6110,
                         "_type": "View.SpecialDimension",
                         "value_": "wrap_content"
                     },
                     "android:layout_height": {
-                        "_id_": 12089,
+                        "_id_": 6111,
                         "_type": "View.SpecialDimension",
                         "value_": "wrap_content"
                     },
                     "android:layout_gravity": {
-                        "_id_": 12090,
+                        "_id_": 6112,
                         "_type": "Gravity",
                         "value_": "center_horizontal"
                     },
                     "android:layout_weight": {
-                        "_id_": 12091,
+                        "_id_": 6113,
                         "_type": "Integer",
                         "value_": 0
                     }
                 },
                 "name": {
-                    "_id_": 12092,
-                    "_type": "String",
-                    "value_": "contact1"
-                }
-            },
-            {
-                "_id_": 3194,
-                "_type": "LayoutResource",
-                "view": {
-                    "_id_": 12105,
-                    "_type": "ImageView",
-                    "id": {
-                        "_id_": 12112,
-                        "_type": "String",
-                        "value_": ""
-                    },
-                    "android:layout_width": {
-                        "_id_": 12107,
-                        "_type": "View.SpecialDimension",
-                        "value_": "wrap_content"
-                    },
-                    "android:layout_height": {
-                        "_id_": 12106,
-                        "_type": "View.SpecialDimension",
-                        "value_": "wrap_content"
-                    },
-                    "android:scaleType": {
-                        "_id_": 12110,
-                        "_type": "ImageView.ScaleType",
-                        "value_": "fitXY"
-                    },
-                    "android:src": {
-                        "_id_": 12108,
-                        "_type": "DrawableReference",
-                        "ref": {
-                            "_id_": 12109,
-                            "_type": "String",
-                            "value_": "@drawable\/keris_jawa_24"
-                        }
-                    }
-                },
-                "name": {
                     "_id_": 3201,
                     "_type": "String",
-                    "value_": "gambar1"
+                    "value_": "contact1"
                 }
             }
         ]
