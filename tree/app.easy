@@ -738,6 +738,15 @@
                                 "value_": "@drawable\/header"
                             }
                         }
+                    },
+                    "android:background": {
+                        "_id_": 11180,
+                        "_type": "DrawableReference",
+                        "ref": {
+                            "_id_": 11182,
+                            "_type": "String",
+                            "value_": "@drawable\/keris_jawa_24"
+                        }
                     }
                 },
                 "contentView": {
