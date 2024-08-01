@@ -672,6 +672,20 @@
                                             "_type": "String",
                                             "value_": ""
                                         }
+                                    },
+                                    {
+                                        "_id_": 11658,
+                                        "_type": "Menu.Item",
+                                        "title": {
+                                            "_id_": 11660,
+                                            "_type": "String",
+                                            "value_": ""
+                                        },
+                                        "id": {
+                                            "_id_": 11662,
+                                            "_type": "String",
+                                            "value_": ""
+                                        }
                                     }
                                 ],
                                 "elementType_": "Menu.Element"
