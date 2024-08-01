@@ -654,15 +654,29 @@
                                                             "value_": true
                                                         },
                                                         "icon": {
-                                                            "_id_": 13401,
-                                                            "_type": "BitmapDrawable",
-                                                            "drawable": {
-                                                                "_id_": 13403,
+                                                            "_id_": 13421,
+                                                            "_type": "AdaptiveIcon",
+                                                            "background": {
+                                                                "_id_": 13423,
+                                                                "_type": "Color",
+                                                                "color_": -1
+                                                            },
+                                                            "foreground": {
+                                                                "_id_": 13425,
                                                                 "_type": "DrawableReference",
                                                                 "ref": {
-                                                                    "_id_": 13405,
+                                                                    "_id_": 13427,
                                                                     "_type": "String",
                                                                     "value_": "@drawable\/keris_jawa_24"
+                                                                }
+                                                            },
+                                                            "legacyIcon": {
+                                                                "_id_": 13429,
+                                                                "_type": "MipmapReference",
+                                                                "ref": {
+                                                                    "_id_": 13431,
+                                                                    "_type": "String",
+                                                                    "value_": "@mipmap\/app_icon"
                                                                 }
                                                             }
                                                         },
