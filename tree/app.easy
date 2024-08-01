@@ -653,19 +653,6 @@
                                                             "_type": "Boolean",
                                                             "value_": true
                                                         },
-                                                        "icon": {
-                                                            "_id_": 12536,
-                                                            "_type": "BitmapDrawable",
-                                                            "drawable": {
-                                                                "_id_": 12538,
-                                                                "_type": "DrawableReference",
-                                                                "ref": {
-                                                                    "_id_": 12540,
-                                                                    "_type": "String",
-                                                                    "value_": "@drawable\/keris_jawa_24"
-                                                                }
-                                                            }
-                                                        },
                                                         "title": {
                                                             "_id_": 3212,
                                                             "_type": "String",
