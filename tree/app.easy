@@ -607,33 +607,61 @@
                                                             "value_": "Hubungi kami"
                                                         },
                                                         "action": {
-                                                            "_id_": 12964,
+                                                            "_id_": 13433,
                                                             "_type": "ImageView",
                                                             "id": {
-                                                                "_id_": 12965,
+                                                                "_id_": 13434,
                                                                 "_type": "String",
                                                                 "value_": ""
                                                             },
                                                             "android:layout_width": {
-                                                                "_id_": 12966,
+                                                                "_id_": 13435,
                                                                 "_type": "View.SpecialDimension",
-                                                                "value_": "wrap_content"
+                                                                "value_": "match_parent"
+                                                            },
+                                                            "android:background": {
+                                                                "_id_": 13436,
+                                                                "_type": "Color",
+                                                                "color_": -15653837
                                                             },
                                                             "android:layout_height": {
-                                                                "_id_": 12967,
-                                                                "_type": "View.SpecialDimension",
-                                                                "value_": "wrap_content"
+                                                                "_id_": 13437,
+                                                                "_type": "Dimension",
+                                                                "unit": {
+                                                                    "_id_": 13438,
+                                                                    "_type": "DimensionUnit",
+                                                                    "value_": "dp"
+                                                                },
+                                                                "value": {
+                                                                    "_id_": 13439,
+                                                                    "_type": "Float",
+                                                                    "value_": 120
+                                                                }
                                                             },
                                                             "android:scaleType": {
-                                                                "_id_": 12968,
+                                                                "_id_": 13440,
                                                                 "_type": "ImageView.ScaleType",
-                                                                "value_": "fitXY"
+                                                                "value_": "fitCenter"
+                                                            },
+                                                            "android:padding": {
+                                                                "_id_": 13441,
+                                                                "_type": "Dimension",
+                                                                "unit": {
+                                                                    "_id_": 13442,
+                                                                    "_type": "DimensionUnit",
+                                                                    "value_": "dp"
+                                                                },
+                                                                "value": {
+                                                                    "_id_": 13443,
+                                                                    "_type": "Float",
+                                                                    "value_": 10
+                                                                }
                                                             },
                                                             "android:src": {
-                                                                "_id_": 12969,
+                                                                "_id_": 13444,
                                                                 "_type": "DrawableReference",
                                                                 "ref": {
-                                                                    "_id_": 12970,
+                                                                    "_id_": 13445,
                                                                     "_type": "String",
                                                                     "value_": "@drawable\/keris_jawa_24"
                                                                 }
@@ -652,33 +680,6 @@
                                                             "_id_": 3211,
                                                             "_type": "Boolean",
                                                             "value_": true
-                                                        },
-                                                        "icon": {
-                                                            "_id_": 13421,
-                                                            "_type": "AdaptiveIcon",
-                                                            "background": {
-                                                                "_id_": 13423,
-                                                                "_type": "Color",
-                                                                "color_": -1
-                                                            },
-                                                            "foreground": {
-                                                                "_id_": 13425,
-                                                                "_type": "DrawableReference",
-                                                                "ref": {
-                                                                    "_id_": 13427,
-                                                                    "_type": "String",
-                                                                    "value_": "@drawable\/keris_jawa_24"
-                                                                }
-                                                            },
-                                                            "legacyIcon": {
-                                                                "_id_": 13429,
-                                                                "_type": "MipmapReference",
-                                                                "ref": {
-                                                                    "_id_": 13431,
-                                                                    "_type": "String",
-                                                                    "value_": "@mipmap\/app_icon"
-                                                                }
-                                                            }
                                                         },
                                                         "title": {
                                                             "_id_": 3212,
