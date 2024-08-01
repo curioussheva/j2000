@@ -703,6 +703,15 @@
                                 "_type": "String",
                                 "value_": "@color\/drawerBackground"
                             }
+                        },
+                        "android:foreground": {
+                            "_id_": 13952,
+                            "_type": "DrawableReference",
+                            "ref": {
+                                "_id_": 13954,
+                                "_type": "String",
+                                "value_": "@drawable\/keris_jawa_24"
+                            }
                         }
                     },
                     "width": {
