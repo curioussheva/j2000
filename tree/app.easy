@@ -594,12 +594,49 @@
                                                         }
                                                     },
                                                     {
+                                                        "_id_": 11641,
+                                                        "_type": "Menu.Item",
+                                                        "checkable": {
+                                                            "_id_": 11642,
+                                                            "_type": "Boolean",
+                                                            "value_": true
+                                                        },
+                                                        "title": {
+                                                            "_id_": 11643,
+                                                            "_type": "String",
+                                                            "value_": "Hubungi kami"
+                                                        },
+                                                        "action": {
+                                                            "_id_": 11644,
+                                                            "_type": "LayoutReference",
+                                                            "ref": {
+                                                                "_id_": 11645,
+                                                                "_type": "String",
+                                                                "value_": "@layout\/contact1"
+                                                            }
+                                                        },
+                                                        "id": {
+                                                            "_id_": 11646,
+                                                            "_type": "String",
+                                                            "value_": ""
+                                                        }
+                                                    },
+                                                    {
                                                         "_id_": 3210,
                                                         "_type": "Menu.Item",
                                                         "checkable": {
                                                             "_id_": 3211,
                                                             "_type": "Boolean",
                                                             "value_": true
+                                                        },
+                                                        "icon": {
+                                                            "_id_": 11654,
+                                                            "_type": "DrawableReference",
+                                                            "ref": {
+                                                                "_id_": 11656,
+                                                                "_type": "String",
+                                                                "value_": "@drawable\/keris_jawa_24"
+                                                            }
                                                         },
                                                         "title": {
                                                             "_id_": 3212,
