@@ -607,12 +607,36 @@
                                                             "value_": "Hubungi kami"
                                                         },
                                                         "action": {
-                                                            "_id_": 11644,
-                                                            "_type": "LayoutReference",
-                                                            "ref": {
-                                                                "_id_": 11645,
+                                                            "_id_": 12964,
+                                                            "_type": "ImageView",
+                                                            "id": {
+                                                                "_id_": 12965,
                                                                 "_type": "String",
-                                                                "value_": "@layout\/contact1"
+                                                                "value_": ""
+                                                            },
+                                                            "android:layout_width": {
+                                                                "_id_": 12966,
+                                                                "_type": "View.SpecialDimension",
+                                                                "value_": "wrap_content"
+                                                            },
+                                                            "android:layout_height": {
+                                                                "_id_": 12967,
+                                                                "_type": "View.SpecialDimension",
+                                                                "value_": "wrap_content"
+                                                            },
+                                                            "android:scaleType": {
+                                                                "_id_": 12968,
+                                                                "_type": "ImageView.ScaleType",
+                                                                "value_": "fitXY"
+                                                            },
+                                                            "android:src": {
+                                                                "_id_": 12969,
+                                                                "_type": "DrawableReference",
+                                                                "ref": {
+                                                                    "_id_": 12970,
+                                                                    "_type": "String",
+                                                                    "value_": "@drawable\/keris_jawa_24"
+                                                                }
                                                             }
                                                         },
                                                         "id": {
@@ -645,7 +669,7 @@
                                                         "title": {
                                                             "_id_": 3212,
                                                             "_type": "String",
-                                                            "value_": "Hubungi kami"
+                                                            "value_": "gambar 1"
                                                         },
                                                         "action": {
                                                             "_id_": 3213,
