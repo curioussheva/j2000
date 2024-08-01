@@ -607,63 +607,24 @@
                                                             "value_": "Hubungi kami"
                                                         },
                                                         "action": {
-                                                            "_id_": 13914,
-                                                            "_type": "ImageView",
-                                                            "id": {
-                                                                "_id_": 13915,
-                                                                "_type": "String",
-                                                                "value_": ""
-                                                            },
-                                                            "android:layout_width": {
-                                                                "_id_": 13916,
-                                                                "_type": "View.SpecialDimension",
-                                                                "value_": "match_parent"
-                                                            },
-                                                            "android:background": {
-                                                                "_id_": 13917,
-                                                                "_type": "Color",
-                                                                "color_": -15653837
-                                                            },
-                                                            "android:layout_height": {
-                                                                "_id_": 13918,
-                                                                "_type": "Dimension",
-                                                                "unit": {
-                                                                    "_id_": 13919,
-                                                                    "_type": "DimensionUnit",
-                                                                    "value_": "dp"
-                                                                },
-                                                                "value": {
-                                                                    "_id_": 13920,
-                                                                    "_type": "Float",
-                                                                    "value_": 120
-                                                                }
-                                                            },
-                                                            "android:scaleType": {
-                                                                "_id_": 13921,
-                                                                "_type": "ImageView.ScaleType",
-                                                                "value_": "fitCenter"
-                                                            },
-                                                            "android:padding": {
-                                                                "_id_": 13922,
-                                                                "_type": "Dimension",
-                                                                "unit": {
-                                                                    "_id_": 13923,
-                                                                    "_type": "DimensionUnit",
-                                                                    "value_": "dp"
-                                                                },
-                                                                "value": {
-                                                                    "_id_": 13924,
-                                                                    "_type": "Float",
-                                                                    "value_": 10
-                                                                }
-                                                            },
-                                                            "android:src": {
-                                                                "_id_": 13925,
+                                                            "_id_": 13928,
+                                                            "_type": "ImageView.SetImage",
+                                                            "image": {
+                                                                "_id_": 13930,
                                                                 "_type": "DrawableReference",
                                                                 "ref": {
-                                                                    "_id_": 13926,
+                                                                    "_id_": 13932,
                                                                     "_type": "String",
                                                                     "value_": "@drawable\/keris_jawa_24"
+                                                                }
+                                                            },
+                                                            "view": {
+                                                                "_id_": 13934,
+                                                                "_type": "View.Reference",
+                                                                "ref": {
+                                                                    "_id_": 13936,
+                                                                    "_type": "String",
+                                                                    "value_": "@id\/dm"
                                                                 }
                                                             }
                                                         },
