@@ -542,24 +542,63 @@
                                                             "value_": "Browser"
                                                         },
                                                         "action": {
-                                                            "_id_": 11198,
-                                                            "_type": "ImageView.SetImage",
-                                                            "image": {
-                                                                "_id_": 11200,
-                                                                "_type": "DrawableReference",
-                                                                "ref": {
-                                                                    "_id_": 11202,
-                                                                    "_type": "String",
-                                                                    "value_": "@drawable\/keris_jawa_24"
+                                                            "_id_": 11239,
+                                                            "_type": "ImageView",
+                                                            "id": {
+                                                                "_id_": 11240,
+                                                                "_type": "String",
+                                                                "value_": ""
+                                                            },
+                                                            "android:layout_width": {
+                                                                "_id_": 11241,
+                                                                "_type": "View.SpecialDimension",
+                                                                "value_": "match_parent"
+                                                            },
+                                                            "android:background": {
+                                                                "_id_": 11242,
+                                                                "_type": "Color",
+                                                                "color_": -15653837
+                                                            },
+                                                            "android:layout_height": {
+                                                                "_id_": 11243,
+                                                                "_type": "Dimension",
+                                                                "unit": {
+                                                                    "_id_": 11244,
+                                                                    "_type": "DimensionUnit",
+                                                                    "value_": "dp"
+                                                                },
+                                                                "value": {
+                                                                    "_id_": 11245,
+                                                                    "_type": "Float",
+                                                                    "value_": 120
                                                                 }
                                                             },
-                                                            "view": {
-                                                                "_id_": 11204,
-                                                                "_type": "View.Reference",
+                                                            "android:scaleType": {
+                                                                "_id_": 11246,
+                                                                "_type": "ImageView.ScaleType",
+                                                                "value_": "fitCenter"
+                                                            },
+                                                            "android:padding": {
+                                                                "_id_": 11247,
+                                                                "_type": "Dimension",
+                                                                "unit": {
+                                                                    "_id_": 11248,
+                                                                    "_type": "DimensionUnit",
+                                                                    "value_": "dp"
+                                                                },
+                                                                "value": {
+                                                                    "_id_": 11249,
+                                                                    "_type": "Float",
+                                                                    "value_": 10
+                                                                }
+                                                            },
+                                                            "android:src": {
+                                                                "_id_": 11250,
+                                                                "_type": "DrawableReference",
                                                                 "ref": {
-                                                                    "_id_": 11206,
+                                                                    "_id_": 11251,
                                                                     "_type": "String",
-                                                                    "value_": "@id\/webView"
+                                                                    "value_": "@drawable\/keris_jawa_24"
                                                                 }
                                                             }
                                                         },
