@@ -660,51 +660,16 @@
                                             "value_": "Related"
                                         },
                                         "action": {
-                                            "_id_": 12103,
-                                            "_type": "LinearLayout",
-                                            "id": {
-                                                "_id_": 12107,
-                                                "_type": "String",
-                                                "value_": ""
-                                            },
-                                            "views": {
-                                                "_id_": 12105,
-                                                "_type": "ViewList",
-                                                "list_": [
-                                                    {
-                                                        "_id_": 12109,
-                                                        "_type": "ImageView",
-                                                        "id": {
-                                                            "_id_": 12116,
-                                                            "_type": "String",
-                                                            "value_": ""
-                                                        },
-                                                        "android:layout_width": {
-                                                            "_id_": 12111,
-                                                            "_type": "View.SpecialDimension",
-                                                            "value_": "wrap_content"
-                                                        },
-                                                        "android:layout_height": {
-                                                            "_id_": 12110,
-                                                            "_type": "View.SpecialDimension",
-                                                            "value_": "wrap_content"
-                                                        },
-                                                        "android:scaleType": {
-                                                            "_id_": 12114,
-                                                            "_type": "ImageView.ScaleType",
-                                                            "value_": "fitXY"
-                                                        },
-                                                        "android:src": {
-                                                            "_id_": 12112,
-                                                            "_type": "DrawableReference",
-                                                            "ref": {
-                                                                "_id_": 12113,
-                                                                "_type": "String",
-                                                                "value_": "@drawable\/keris_jawa_24"
-                                                            }
-                                                        }
-                                                    }
-                                                ]
+                                            "_id_": 12971,
+                                            "_type": "View.Show",
+                                            "view": {
+                                                "_id_": 12973,
+                                                "_type": "View.Reference",
+                                                "ref": {
+                                                    "_id_": 12975,
+                                                    "_type": "String",
+                                                    "value_": "@id\/content"
+                                                }
                                             }
                                         },
                                         "id": {
