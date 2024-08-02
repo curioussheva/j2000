@@ -542,20 +542,24 @@
                                                             "value_": "Browser"
                                                         },
                                                         "action": {
-                                                            "_id_": 342,
-                                                            "_type": "Activity.Start",
-                                                            "intent": {
-                                                                "_id_": 343,
-                                                                "_type": "Intent",
-                                                                "data": {
-                                                                    "_id_": 344,
+                                                            "_id_": 11186,
+                                                            "_type": "ImageView.SetImage",
+                                                            "image": {
+                                                                "_id_": 11188,
+                                                                "_type": "DrawableReference",
+                                                                "ref": {
+                                                                    "_id_": 11190,
                                                                     "_type": "String",
-                                                                    "value_": "https:\/\/google.com"
-                                                                },
-                                                                "action": {
-                                                                    "_id_": 345,
+                                                                    "value_": "@drawable\/keris_jawa_24"
+                                                                }
+                                                            },
+                                                            "view": {
+                                                                "_id_": 11192,
+                                                                "_type": "View.Reference",
+                                                                "ref": {
+                                                                    "_id_": 11194,
                                                                     "_type": "String",
-                                                                    "value_": "ACTION_VIEW"
+                                                                    "value_": "@id\/content"
                                                                 }
                                                             }
                                                         },
