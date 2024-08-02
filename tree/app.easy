@@ -554,11 +554,6 @@
                                                                 "_type": "View.SpecialDimension",
                                                                 "value_": "match_parent"
                                                             },
-                                                            "android:background": {
-                                                                "_id_": 11242,
-                                                                "_type": "Color",
-                                                                "color_": -15653837
-                                                            },
                                                             "android:layout_height": {
                                                                 "_id_": 11243,
                                                                 "_type": "Dimension",
