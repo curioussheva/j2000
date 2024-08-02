@@ -536,6 +536,19 @@
                                                     {
                                                         "_id_": 340,
                                                         "_type": "Menu.Item",
+                                                        "icon": {
+                                                            "_id_": 12616,
+                                                            "_type": "BitmapDrawable",
+                                                            "drawable": {
+                                                                "_id_": 12618,
+                                                                "_type": "DrawableReference",
+                                                                "ref": {
+                                                                    "_id_": 12620,
+                                                                    "_type": "String",
+                                                                    "value_": "@drawable\/keris_jawa_24"
+                                                                }
+                                                            }
+                                                        },
                                                         "title": {
                                                             "_id_": 341,
                                                             "_type": "String",
