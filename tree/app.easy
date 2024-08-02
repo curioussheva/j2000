@@ -669,59 +669,51 @@
                                             "value_": "Extra Stuff"
                                         },
                                         "action": {
-                                            "_id_": 11665,
-                                            "_type": "ImageView",
+                                            "_id_": 12103,
+                                            "_type": "LinearLayout",
                                             "id": {
-                                                "_id_": 11666,
+                                                "_id_": 12107,
                                                 "_type": "String",
                                                 "value_": ""
                                             },
-                                            "android:layout_width": {
-                                                "_id_": 11667,
-                                                "_type": "View.SpecialDimension",
-                                                "value_": "match_parent"
-                                            },
-                                            "android:layout_height": {
-                                                "_id_": 11668,
-                                                "_type": "Dimension",
-                                                "unit": {
-                                                    "_id_": 11669,
-                                                    "_type": "DimensionUnit",
-                                                    "value_": "dp"
-                                                },
-                                                "value": {
-                                                    "_id_": 11670,
-                                                    "_type": "Float",
-                                                    "value_": 120
-                                                }
-                                            },
-                                            "android:scaleType": {
-                                                "_id_": 11671,
-                                                "_type": "ImageView.ScaleType",
-                                                "value_": "fitCenter"
-                                            },
-                                            "android:padding": {
-                                                "_id_": 11672,
-                                                "_type": "Dimension",
-                                                "unit": {
-                                                    "_id_": 11673,
-                                                    "_type": "DimensionUnit",
-                                                    "value_": "dp"
-                                                },
-                                                "value": {
-                                                    "_id_": 11674,
-                                                    "_type": "Float",
-                                                    "value_": 10
-                                                }
-                                            },
-                                            "android:src": {
-                                                "_id_": 11675,
-                                                "_type": "DrawableReference",
-                                                "ref": {
-                                                    "_id_": 11676,
-                                                    "_type": "String",
-                                                    "value_": "@drawable\/keris_jawa_24"
-                                                }
+                                            "views": {
+                                                "_id_": 12105,
+                                                "_type": "ViewList",
+                                                "list_": [
+                                                    {
+                                                        "_id_": 12109,
+                                                        "_type": "ImageView",
+                                                        "id": {
+                                                            "_id_": 12116,
+                                                            "_type": "String",
+                                                            "value_": ""
+                                                        },
+                                                        "android:layout_width": {
+                                                            "_id_": 12111,
+                                                            "_type": "View.SpecialDimension",
+                                                            "value_": "wrap_content"
+                                                        },
+                                                        "android:layout_height": {
+                                                            "_id_": 12110,
+                                                            "_type": "View.SpecialDimension",
+                                                            "value_": "wrap_content"
+                                                        },
+                                                        "android:scaleType": {
+                                                            "_id_": 12114,
+                                                            "_type": "ImageView.ScaleType",
+                                                            "value_": "fitXY"
+                                                        },
+                                                        "android:src": {
+                                                            "_id_": 12112,
+                                                            "_type": "DrawableReference",
+                                                            "ref": {
+                                                                "_id_": 12113,
+                                                                "_type": "String",
+                                                                "value_": "@drawable\/keris_jawa_24"
+                                                            }
+                                                        }
+                                                    }
+                                                ]
                                             }
                                         },
                                         "id": {
