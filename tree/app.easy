@@ -539,7 +539,7 @@
                                                         "title": {
                                                             "_id_": 341,
                                                             "_type": "String",
-                                                            "value_": "Browser"
+                                                            "value_": "Keris jawa"
                                                         },
                                                         "action": {
                                                             "_id_": 12546,
@@ -626,62 +626,22 @@
                                                     {
                                                         "_id_": 3210,
                                                         "_type": "Menu.Item",
-                                                        "checkable": {
-                                                            "_id_": 3211,
-                                                            "_type": "Boolean",
-                                                            "value_": false
-                                                        },
                                                         "title": {
                                                             "_id_": 3212,
                                                             "_type": "String",
-                                                            "value_": "Hubungi kami"
+                                                            "value_": "Biduri bulan"
                                                         },
                                                         "action": {
-                                                            "_id_": 12117,
-                                                            "_type": "LinearLayout",
-                                                            "id": {
-                                                                "_id_": 12118,
-                                                                "_type": "String",
-                                                                "value_": ""
-                                                            },
-                                                            "views": {
-                                                                "_id_": 12119,
-                                                                "_type": "ViewList",
-                                                                "list_": [
-                                                                    {
-                                                                        "_id_": 12120,
-                                                                        "_type": "ImageView",
-                                                                        "id": {
-                                                                            "_id_": 12121,
-                                                                            "_type": "String",
-                                                                            "value_": ""
-                                                                        },
-                                                                        "android:layout_width": {
-                                                                            "_id_": 12122,
-                                                                            "_type": "View.SpecialDimension",
-                                                                            "value_": "wrap_content"
-                                                                        },
-                                                                        "android:layout_height": {
-                                                                            "_id_": 12123,
-                                                                            "_type": "View.SpecialDimension",
-                                                                            "value_": "wrap_content"
-                                                                        },
-                                                                        "android:scaleType": {
-                                                                            "_id_": 12124,
-                                                                            "_type": "ImageView.ScaleType",
-                                                                            "value_": "fitXY"
-                                                                        },
-                                                                        "android:src": {
-                                                                            "_id_": 12125,
-                                                                            "_type": "DrawableReference",
-                                                                            "ref": {
-                                                                                "_id_": 12126,
-                                                                                "_type": "String",
-                                                                                "value_": "@drawable\/keris_jawa_24"
-                                                                            }
-                                                                        }
-                                                                    }
-                                                                ]
+                                                            "_id_": 12594,
+                                                            "_type": "BitmapDrawable",
+                                                            "drawable": {
+                                                                "_id_": 12596,
+                                                                "_type": "DrawableReference",
+                                                                "ref": {
+                                                                    "_id_": 12598,
+                                                                    "_type": "String",
+                                                                    "value_": "@drawable\/batu_biduri_bulan_4"
+                                                                }
                                                             }
                                                         },
                                                         "id": {
@@ -697,7 +657,7 @@
                                         "title": {
                                             "_id_": 352,
                                             "_type": "String",
-                                            "value_": "Extra Stuff"
+                                            "value_": "Related"
                                         },
                                         "action": {
                                             "_id_": 12103,
