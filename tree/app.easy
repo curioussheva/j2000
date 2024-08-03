@@ -856,24 +856,6 @@
                                         }
                                     ]
                                 }
-                            },
-                            {
-                                "_id_": 18079,
-                                "_type": "Button",
-                                "onClick": {
-                                    "_id_": 18090,
-                                    "_type": "AdMob.Show",
-                                    "name": {
-                                        "_id_": 18092,
-                                        "_type": "String",
-                                        "value_": "myAd"
-                                    }
-                                },
-                                "id": {
-                                    "_id_": 18084,
-                                    "_type": "String",
-                                    "value_": ""
-                                }
                             }
                         ]
                     },
