@@ -866,6 +866,307 @@
                     "_id_": 91,
                     "_type": "Theme.DayNight"
                 },
+                "drawer": {
+                    "_id_": 13484,
+                    "_type": "Drawer",
+                    "id": {
+                        "_id_": 13485,
+                        "_type": "String",
+                        "value_": ""
+                    },
+                    "views": {
+                        "_id_": 13486,
+                        "_type": "ViewList",
+                        "list_": []
+                    },
+                    "menu": {
+                        "_id_": 13487,
+                        "_type": "Drawer.NativeMenu",
+                        "defaultItem": {
+                            "_id_": 13488,
+                            "_type": "IdReference",
+                            "ref": {
+                                "_id_": 13489,
+                                "_type": "String",
+                                "value_": "@id\/home"
+                            }
+                        },
+                        "id": {
+                            "_id_": 13490,
+                            "_type": "String",
+                            "value_": "dm"
+                        },
+                        "views": {
+                            "_id_": 13491,
+                            "_type": "ViewList",
+                            "list_": []
+                        },
+                        "menu": {
+                            "_id_": 13492,
+                            "_type": "Menu",
+                            "items": {
+                                "_id_": 13493,
+                                "_type": "List",
+                                "list_": [
+                                    {
+                                        "_id_": 13574,
+                                        "_type": "Menu.Item",
+                                        "subMenu": {
+                                            "_id_": 13575,
+                                            "_type": "Menu",
+                                            "items": {
+                                                "_id_": 13576,
+                                                "_type": "List",
+                                                "list_": [
+                                                    {
+                                                        "_id_": 13577,
+                                                        "_type": "Menu.Item",
+                                                        "title": {
+                                                            "_id_": 13578,
+                                                            "_type": "String",
+                                                            "value_": "Keris jawa"
+                                                        },
+                                                        "action": {
+                                                            "_id_": 13579,
+                                                            "_type": "LinearLayout",
+                                                            "id": {
+                                                                "_id_": 13580,
+                                                                "_type": "String",
+                                                                "value_": ""
+                                                            },
+                                                            "views": {
+                                                                "_id_": 13581,
+                                                                "_type": "ViewList",
+                                                                "list_": [
+                                                                    {
+                                                                        "_id_": 13582,
+                                                                        "_type": "ImageView",
+                                                                        "id": {
+                                                                            "_id_": 13583,
+                                                                            "_type": "String",
+                                                                            "value_": ""
+                                                                        },
+                                                                        "android:layout_width": {
+                                                                            "_id_": 13584,
+                                                                            "_type": "View.SpecialDimension",
+                                                                            "value_": "wrap_content"
+                                                                        },
+                                                                        "android:layout_height": {
+                                                                            "_id_": 13585,
+                                                                            "_type": "View.SpecialDimension",
+                                                                            "value_": "wrap_content"
+                                                                        },
+                                                                        "android:scaleType": {
+                                                                            "_id_": 13586,
+                                                                            "_type": "ImageView.ScaleType",
+                                                                            "value_": "fitXY"
+                                                                        },
+                                                                        "android:src": {
+                                                                            "_id_": 13587,
+                                                                            "_type": "DrawableReference",
+                                                                            "ref": {
+                                                                                "_id_": 13588,
+                                                                                "_type": "String",
+                                                                                "value_": "@drawable\/keris_jawa_24"
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            }
+                                                        },
+                                                        "id": {
+                                                            "_id_": 13589,
+                                                            "_type": "String",
+                                                            "value_": ""
+                                                        }
+                                                    },
+                                                    {
+                                                        "_id_": 13590,
+                                                        "_type": "Menu.Item",
+                                                        "checkable": {
+                                                            "_id_": 13591,
+                                                            "_type": "Boolean",
+                                                            "value_": true
+                                                        },
+                                                        "title": {
+                                                            "_id_": 13592,
+                                                            "_type": "String",
+                                                            "value_": "Hubungi kami"
+                                                        },
+                                                        "action": {
+                                                            "_id_": 13593,
+                                                            "_type": "LayoutReference",
+                                                            "ref": {
+                                                                "_id_": 13594,
+                                                                "_type": "String",
+                                                                "value_": "@layout\/contact"
+                                                            }
+                                                        },
+                                                        "id": {
+                                                            "_id_": 13595,
+                                                            "_type": "String",
+                                                            "value_": ""
+                                                        }
+                                                    },
+                                                    {
+                                                        "_id_": 13596,
+                                                        "_type": "Menu.Item",
+                                                        "title": {
+                                                            "_id_": 13597,
+                                                            "_type": "String",
+                                                            "value_": "Biduri bulan"
+                                                        },
+                                                        "action": {
+                                                            "_id_": 13598,
+                                                            "_type": "BitmapDrawable",
+                                                            "drawable": {
+                                                                "_id_": 13599,
+                                                                "_type": "DrawableReference",
+                                                                "ref": {
+                                                                    "_id_": 13600,
+                                                                    "_type": "String",
+                                                                    "value_": "@drawable\/batu_biduri_bulan_4"
+                                                                }
+                                                            }
+                                                        },
+                                                        "id": {
+                                                            "_id_": 13601,
+                                                            "_type": "String",
+                                                            "value_": ""
+                                                        }
+                                                    }
+                                                ],
+                                                "elementType_": "Menu.Element"
+                                            }
+                                        },
+                                        "title": {
+                                            "_id_": 13602,
+                                            "_type": "String",
+                                            "value_": "Related"
+                                        },
+                                        "action": {
+                                            "_id_": 13603,
+                                            "_type": "View.Show",
+                                            "view": {
+                                                "_id_": 13604,
+                                                "_type": "View.Reference",
+                                                "ref": {
+                                                    "_id_": 13605,
+                                                    "_type": "String",
+                                                    "value_": "@id\/content"
+                                                }
+                                            }
+                                        },
+                                        "id": {
+                                            "_id_": 13606,
+                                            "_type": "String",
+                                            "value_": ""
+                                        }
+                                    }
+                                ],
+                                "elementType_": "Menu.Element"
+                            }
+                        },
+                        "fragmentContainer": {
+                            "_id_": 13607,
+                            "_type": "View.Reference",
+                            "ref": {
+                                "_id_": 13608,
+                                "_type": "String",
+                                "value_": "@id\/content"
+                            }
+                        },
+                        "initialSync": {
+                            "_id_": 13609,
+                            "_type": "Boolean",
+                            "value_": true
+                        },
+                        "android:background": {
+                            "_id_": 13610,
+                            "_type": "ColorReference",
+                            "ref": {
+                                "_id_": 13611,
+                                "_type": "String",
+                                "value_": "@color\/drawerBackground"
+                            }
+                        }
+                    },
+                    "width": {
+                        "_id_": 13612,
+                        "_type": "Dimension",
+                        "unit": {
+                            "_id_": 13613,
+                            "_type": "DimensionUnit",
+                            "value_": "dp"
+                        },
+                        "value": {
+                            "_id_": 13614,
+                            "_type": "Float",
+                            "value_": 300
+                        }
+                    },
+                    "header": {
+                        "_id_": 13615,
+                        "_type": "ImageView",
+                        "id": {
+                            "_id_": 13616,
+                            "_type": "String",
+                            "value_": ""
+                        },
+                        "android:layout_width": {
+                            "_id_": 13617,
+                            "_type": "View.SpecialDimension",
+                            "value_": "match_parent"
+                        },
+                        "android:background": {
+                            "_id_": 13618,
+                            "_type": "Color",
+                            "color_": -15653837
+                        },
+                        "android:layout_height": {
+                            "_id_": 13619,
+                            "_type": "Dimension",
+                            "unit": {
+                                "_id_": 13620,
+                                "_type": "DimensionUnit",
+                                "value_": "dp"
+                            },
+                            "value": {
+                                "_id_": 13621,
+                                "_type": "Float",
+                                "value_": 120
+                            }
+                        },
+                        "android:scaleType": {
+                            "_id_": 13622,
+                            "_type": "ImageView.ScaleType",
+                            "value_": "fitCenter"
+                        },
+                        "android:padding": {
+                            "_id_": 13623,
+                            "_type": "Dimension",
+                            "unit": {
+                                "_id_": 13624,
+                                "_type": "DimensionUnit",
+                                "value_": "dp"
+                            },
+                            "value": {
+                                "_id_": 13625,
+                                "_type": "Float",
+                                "value_": 10
+                            }
+                        },
+                        "android:src": {
+                            "_id_": 13626,
+                            "_type": "DrawableReference",
+                            "ref": {
+                                "_id_": 13627,
+                                "_type": "String",
+                                "value_": "@drawable\/keris_jawa_24"
+                            }
+                        }
+                    }
+                },
                 "fullScreen": {
                     "_id_": 92,
                     "_type": "Activity.FullScreen",
