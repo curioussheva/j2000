@@ -601,6 +601,15 @@
                                                         "action": {
                                                             "_id_": 12546,
                                                             "_type": "LinearLayout",
+                                                            "onClick": {
+                                                                "_id_": 15410,
+                                                                "_type": "URL",
+                                                                "url": {
+                                                                    "_id_": 15411,
+                                                                    "_type": "String",
+                                                                    "value_": "https:\/\/play.google.com\/store\/apps\/details?id=com.bhadartech.terjemah_kitab_futuhul"
+                                                                }
+                                                            },
                                                             "id": {
                                                                 "_id_": 12547,
                                                                 "_type": "String",
