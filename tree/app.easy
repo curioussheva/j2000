@@ -536,6 +536,15 @@
                                                     {
                                                         "_id_": 340,
                                                         "_type": "Menu.Item",
+                                                        "icon": {
+                                                            "_id_": 13633,
+                                                            "_type": "DrawableReference",
+                                                            "ref": {
+                                                                "_id_": 13634,
+                                                                "_type": "String",
+                                                                "value_": "@drawable\/keris_jawa_24"
+                                                            }
+                                                        },
                                                         "title": {
                                                             "_id_": 341,
                                                             "_type": "String",
@@ -626,6 +635,15 @@
                                                     {
                                                         "_id_": 3210,
                                                         "_type": "Menu.Item",
+                                                        "icon": {
+                                                            "_id_": 13631,
+                                                            "_type": "DrawableReference",
+                                                            "ref": {
+                                                                "_id_": 13632,
+                                                                "_type": "String",
+                                                                "value_": "@drawable\/home"
+                                                            }
+                                                        },
                                                         "title": {
                                                             "_id_": 3212,
                                                             "_type": "String",
