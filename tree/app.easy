@@ -8,6 +8,15 @@
             {
                 "_id_": 3,
                 "_type": "Activity",
+                "icon": {
+                    "_id_": 18073,
+                    "_type": "DrawableReference",
+                    "ref": {
+                        "_id_": 18075,
+                        "_type": "String",
+                        "value_": "@drawable\/header"
+                    }
+                },
                 "features": {
                     "_id_": 4,
                     "_type": "Activity.Features",
@@ -801,7 +810,11 @@
                 },
                 "fullScreen": {
                     "_id_": 92,
-                    "_type": "Activity.FullScreen"
+                    "_type": "Activity.FullScreen",
+                    "hideNavigation": {
+                        "_id_": 18057,
+                        "_type": "Activity.HideNavigation"
+                    }
                 },
                 "contentView": {
                     "_id_": 17697,
@@ -840,10 +853,6 @@
                     "_id_": 99,
                     "_type": "String",
                     "value_": "AnotherActivity"
-                },
-                "launcher": {
-                    "_id_": 18056,
-                    "_type": "Activity.Launcher"
                 }
             },
             {
