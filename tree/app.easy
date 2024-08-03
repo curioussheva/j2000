@@ -789,26 +789,36 @@
                     }
                 },
                 "contentView": {
-                    "_id_": 16939,
+                    "_id_": 17697,
                     "_type": "AdMob.AdView",
                     "id": {
-                        "_id_": 16947,
+                        "_id_": 17698,
                         "_type": "String",
                         "value_": ""
                     },
                     "adUnit": {
-                        "_id_": 16941,
+                        "_id_": 17699,
                         "_type": "AdMob.AdUnitReference",
                         "name": {
-                            "_id_": 16943,
+                            "_id_": 17700,
                             "_type": "String",
                             "value_": "ad2"
                         }
                     },
                     "adSize": {
-                        "_id_": 16945,
+                        "_id_": 17701,
                         "_type": "AdMob.AdSize",
-                        "value_": "BANNER"
+                        "value_": "MEDIUM_RECTANGLE"
+                    },
+                    "android:layout_alignParentTop": {
+                        "_id_": 17702,
+                        "_type": "Boolean",
+                        "value_": true
+                    },
+                    "android:layout_centerHorizontal": {
+                        "_id_": 17703,
+                        "_type": "Boolean",
+                        "value_": true
                     }
                 },
                 "name": {
