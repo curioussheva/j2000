@@ -831,31 +831,7 @@
                 "features": {
                     "_id_": 89,
                     "_type": "Activity.Features",
-                    "list_": [
-                        {
-                            "_id_": 8087,
-                            "_type": "AdMob.InterstitialAd",
-                            "adUnit": {
-                                "_id_": 8088,
-                                "_type": "AdMob.AdUnitReference",
-                                "name": {
-                                    "_id_": 8089,
-                                    "_type": "String",
-                                    "value_": "MyInterstitial"
-                                }
-                            },
-                            "name": {
-                                "_id_": 8090,
-                                "_type": "String",
-                                "value_": "ad"
-                            },
-                            "autoReload": {
-                                "_id_": 8091,
-                                "_type": "Boolean",
-                                "value_": true
-                            }
-                        }
-                    ]
+                    "list_": []
                 },
                 "screenOrientation": {
                     "_id_": 90,
@@ -1188,11 +1164,6 @@
                         "_type": "ViewList",
                         "list_": []
                     }
-                },
-                "background": {
-                    "_id_": 98,
-                    "_type": "Color",
-                    "color_": -16777216
                 },
                 "name": {
                     "_id_": 99,
