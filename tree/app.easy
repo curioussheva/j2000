@@ -785,7 +785,7 @@
                             "name": {
                                 "_id_": 17711,
                                 "_type": "String",
-                                "value_": ""
+                                "value_": "myAd"
                             }
                         }
                     ]
@@ -844,6 +844,10 @@
                     "_id_": 99,
                     "_type": "String",
                     "value_": "AnotherActivity"
+                },
+                "launcher": {
+                    "_id_": 18056,
+                    "_type": "Activity.Launcher"
                 }
             },
             {
