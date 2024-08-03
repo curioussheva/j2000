@@ -542,13 +542,13 @@
                                                             "ref": {
                                                                 "_id_": 13634,
                                                                 "_type": "String",
-                                                                "value_": "@drawable\/keris_jawa_24"
+                                                                "value_": "@drawable\/header"
                                                             }
                                                         },
                                                         "title": {
                                                             "_id_": 341,
                                                             "_type": "String",
-                                                            "value_": "Keris jawa"
+                                                            "value_": " "
                                                         },
                                                         "action": {
                                                             "_id_": 12546,
@@ -647,7 +647,7 @@
                                                         "title": {
                                                             "_id_": 3212,
                                                             "_type": "String",
-                                                            "value_": "Biduri bulan"
+                                                            "value_": " "
                                                         },
                                                         "action": {
                                                             "_id_": 12594,
@@ -658,7 +658,7 @@
                                                                 "ref": {
                                                                     "_id_": 12598,
                                                                     "_type": "String",
-                                                                    "value_": "@drawable\/batu_biduri_bulan_4"
+                                                                    "value_": "@drawable\/header"
                                                                 }
                                                             }
                                                         },
