@@ -96,6 +96,54 @@
                                 "_type": "Boolean",
                                 "value_": true
                             }
+                        },
+                        {
+                            "_id_": 14952,
+                            "_type": "Function",
+                            "name": {
+                                "_id_": 14956,
+                                "_type": "String",
+                                "value_": "gambar"
+                            },
+                            "body": {
+                                "_id_": 14954,
+                                "_type": "Sequence",
+                                "list_": [
+                                    {
+                                        "_id_": 14958,
+                                        "_type": "ImageButton",
+                                        "id": {
+                                            "_id_": 14965,
+                                            "_type": "String",
+                                            "value_": ""
+                                        },
+                                        "android:layout_width": {
+                                            "_id_": 14960,
+                                            "_type": "View.SpecialDimension",
+                                            "value_": "wrap_content"
+                                        },
+                                        "android:layout_height": {
+                                            "_id_": 14959,
+                                            "_type": "View.SpecialDimension",
+                                            "value_": "wrap_content"
+                                        },
+                                        "android:scaleType": {
+                                            "_id_": 14963,
+                                            "_type": "ImageView.ScaleType",
+                                            "value_": "fitXY"
+                                        },
+                                        "android:src": {
+                                            "_id_": 14961,
+                                            "_type": "DrawableReference",
+                                            "ref": {
+                                                "_id_": 14962,
+                                                "_type": "String",
+                                                "value_": "@drawable\/header"
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
                         }
                     ]
                 },
