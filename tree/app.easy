@@ -688,48 +688,26 @@
                                                         "_id_": 3210,
                                                         "_type": "Menu.Item",
                                                         "icon": {
-                                                            "_id_": 14065,
-                                                            "_type": "AdaptiveIcon",
-                                                            "background": {
-                                                                "_id_": 14067,
-                                                                "_type": "Color",
-                                                                "color_": -1
-                                                            },
-                                                            "foreground": {
-                                                                "_id_": 14069,
-                                                                "_type": "DrawableReference",
-                                                                "ref": {
-                                                                    "_id_": 14071,
-                                                                    "_type": "String",
-                                                                    "value_": "@drawable\/header"
-                                                                }
-                                                            },
-                                                            "legacyIcon": {
-                                                                "_id_": 14073,
-                                                                "_type": "MipmapReference",
-                                                                "ref": {
-                                                                    "_id_": 14075,
-                                                                    "_type": "String",
-                                                                    "value_": "@mipmap\/app_icon"
-                                                                }
+                                                            "_id_": 15900,
+                                                            "_type": "DrawableReference",
+                                                            "ref": {
+                                                                "_id_": 15902,
+                                                                "_type": "String",
+                                                                "value_": "@drawable\/header"
                                                             }
                                                         },
                                                         "title": {
                                                             "_id_": 3212,
                                                             "_type": "String",
-                                                            "value_": " "
+                                                            "value_": " 2"
                                                         },
                                                         "action": {
-                                                            "_id_": 12594,
-                                                            "_type": "BitmapDrawable",
-                                                            "drawable": {
-                                                                "_id_": 12596,
-                                                                "_type": "DrawableReference",
-                                                                "ref": {
-                                                                    "_id_": 12598,
-                                                                    "_type": "String",
-                                                                    "value_": "@drawable\/header"
-                                                                }
+                                                            "_id_": 15891,
+                                                            "_type": "URL",
+                                                            "url": {
+                                                                "_id_": 15892,
+                                                                "_type": "String",
+                                                                "value_": "https:\/\/play.google.com\/store\/apps\/details?id=com.bhadartech.terjemah_kitab_futuhul"
                                                             }
                                                         },
                                                         "id": {
