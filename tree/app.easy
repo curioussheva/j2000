@@ -11,7 +11,26 @@
                 "features": {
                     "_id_": 4,
                     "_type": "Activity.Features",
-                    "list_": []
+                    "list_": [
+                        {
+                            "_id_": 16595,
+                            "_type": "AdMob.InterstitialAd",
+                            "adUnit": {
+                                "_id_": 16596,
+                                "_type": "AdMob.AdUnitReference",
+                                "name": {
+                                    "_id_": 16597,
+                                    "_type": "String",
+                                    "value_": "ad1"
+                                }
+                            },
+                            "name": {
+                                "_id_": 16598,
+                                "_type": "String",
+                                "value_": "myAd"
+                            }
+                        }
+                    ]
                 },
                 "handleConfigChanges": {
                     "_id_": 5,
@@ -1411,6 +1430,54 @@
         "releaseBuild": {
             "_id_": 141,
             "_type": "App.Settings.ReleaseBuild"
+        }
+    },
+    "adMob": {
+        "_id_": 16254,
+        "_type": "AdMob",
+        "appId": {
+            "_id_": 16255,
+            "_type": "String",
+            "value_": "test"
+        },
+        "testDevices": {
+            "_id_": 16256,
+            "_type": "List",
+            "list_": []
+        },
+        "adUnits": {
+            "_id_": 16257,
+            "_type": "List",
+            "list_": [
+                {
+                    "_id_": 16258,
+                    "_type": "AdMob.AdUnit",
+                    "name": {
+                        "_id_": 16259,
+                        "_type": "String",
+                        "value_": "ad1"
+                    },
+                    "unitId": {
+                        "_id_": 16260,
+                        "_type": "String",
+                        "value_": "test"
+                    }
+                },
+                {
+                    "_id_": 16261,
+                    "_type": "AdMob.AdUnit",
+                    "name": {
+                        "_id_": 16262,
+                        "_type": "String",
+                        "value_": "ad2"
+                    },
+                    "unitId": {
+                        "_id_": 16263,
+                        "_type": "String",
+                        "value_": "test"
+                    }
+                }
+            ]
         }
     },
     "packaging": {
