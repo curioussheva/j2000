@@ -747,6 +747,117 @@
                         "_type": "ViewList",
                         "list_": [
                             {
+                                "_id_": 18441,
+                                "_type": "RelativeLayout",
+                                "id": {
+                                    "_id_": 18442,
+                                    "_type": "String",
+                                    "value_": ""
+                                },
+                                "views": {
+                                    "_id_": 18443,
+                                    "_type": "ViewList",
+                                    "list_": [
+                                        {
+                                            "_id_": 18444,
+                                            "_type": "Button",
+                                            "onClick": {
+                                                "_id_": 18445,
+                                                "_type": "Sequence",
+                                                "list_": [
+                                                    {
+                                                        "_id_": 18446,
+                                                        "_type": "Material.Snackbar.Show",
+                                                        "snackbar": {
+                                                            "_id_": 18447,
+                                                            "_type": "Material.Snackbar",
+                                                            "duration": {
+                                                                "_id_": 18448,
+                                                                "_type": "Material.Snackbar.Duration",
+                                                                "value_": "long"
+                                                            },
+                                                            "action": {
+                                                                "_id_": 18449,
+                                                                "_type": "Material.Snackbar.Action",
+                                                                "onClick": {
+                                                                    "_id_": 18450,
+                                                                    "_type": "Sequence",
+                                                                    "list_": [
+                                                                        {
+                                                                            "_id_": 18451,
+                                                                            "_type": "Activity.Start",
+                                                                            "onError": {
+                                                                                "_id_": 18452,
+                                                                                "_type": "Sequence",
+                                                                                "list_": [
+                                                                                    {
+                                                                                        "_id_": 18453,
+                                                                                        "_type": "ScopeVariable",
+                                                                                        "name": {
+                                                                                            "_id_": 18454,
+                                                                                            "_type": "String",
+                                                                                            "value_": "error"
+                                                                                        }
+                                                                                    }
+                                                                                ]
+                                                                            },
+                                                                            "showChooser": {
+                                                                                "_id_": 18455,
+                                                                                "_type": "Boolean",
+                                                                                "value_": true
+                                                                            },
+                                                                            "intent": {
+                                                                                "_id_": 18456,
+                                                                                "_type": "Intent",
+                                                                                "data": {
+                                                                                    "_id_": 18457,
+                                                                                    "_type": "String",
+                                                                                    "value_": "https:\/\/developer.android.com\/reference\/com\/google\/android\/material\/snackbar\/Snackbar"
+                                                                                },
+                                                                                "action": {
+                                                                                    "_id_": 18458,
+                                                                                    "_type": "String",
+                                                                                    "value_": "ACTION_VIEW"
+                                                                                }
+                                                                            }
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                "label": {
+                                                                    "_id_": 18459,
+                                                                    "_type": "String",
+                                                                    "value_": "More"
+                                                                }
+                                                            },
+                                                            "text": {
+                                                                "_id_": 18460,
+                                                                "_type": "String",
+                                                                "value_": "This is a Snackbar. It will disappear by itself."
+                                                            }
+                                                        }
+                                                    }
+                                                ]
+                                            },
+                                            "id": {
+                                                "_id_": 18461,
+                                                "_type": "String",
+                                                "value_": ""
+                                            },
+                                            "android:text": {
+                                                "_id_": 18462,
+                                                "_type": "String",
+                                                "value_": "Show"
+                                            },
+                                            "android:layout_centerInParent": {
+                                                "_id_": 18463,
+                                                "_type": "Boolean",
+                                                "value_": true
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            {
                                 "_id_": 18079,
                                 "_type": "Button",
                                 "onClick": {
