@@ -1819,6 +1819,28 @@
                     "_type": "String",
                     "value_": "contact1"
                 }
+            },
+            {
+                "_id_": 14509,
+                "_type": "DrawableResource",
+                "drawable": {
+                    "_id_": 14514,
+                    "_type": "BitmapDrawable",
+                    "drawable": {
+                        "_id_": 14516,
+                        "_type": "DrawableReference",
+                        "ref": {
+                            "_id_": 14518,
+                            "_type": "String",
+                            "value_": "@drawable\/header"
+                        }
+                    }
+                },
+                "name": {
+                    "_id_": 14512,
+                    "_type": "String",
+                    "value_": "drawable1"
+                }
             }
         ]
     },
