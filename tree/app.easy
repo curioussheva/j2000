@@ -587,7 +587,7 @@
                                                         "title": {
                                                             "_id_": 341,
                                                             "_type": "String",
-                                                            "value_": " "
+                                                            "value_": " tes"
                                                         },
                                                         "action": {
                                                             "_id_": 15413,
@@ -605,33 +605,33 @@
                                                                     "_type": "ViewList",
                                                                     "list_": [
                                                                         {
-                                                                            "_id_": 15421,
-                                                                            "_type": "ImageButton",
+                                                                            "_id_": 15430,
+                                                                            "_type": "ImageView",
                                                                             "id": {
-                                                                                "_id_": 15428,
+                                                                                "_id_": 15437,
                                                                                 "_type": "String",
-                                                                                "value_": "tes"
+                                                                                "value_": ""
                                                                             },
                                                                             "android:layout_width": {
-                                                                                "_id_": 15423,
+                                                                                "_id_": 15432,
                                                                                 "_type": "View.SpecialDimension",
                                                                                 "value_": "wrap_content"
                                                                             },
                                                                             "android:layout_height": {
-                                                                                "_id_": 15422,
+                                                                                "_id_": 15431,
                                                                                 "_type": "View.SpecialDimension",
                                                                                 "value_": "wrap_content"
                                                                             },
                                                                             "android:scaleType": {
-                                                                                "_id_": 15426,
+                                                                                "_id_": 15435,
                                                                                 "_type": "ImageView.ScaleType",
                                                                                 "value_": "fitXY"
                                                                             },
                                                                             "android:src": {
-                                                                                "_id_": 15424,
+                                                                                "_id_": 15433,
                                                                                 "_type": "DrawableReference",
                                                                                 "ref": {
-                                                                                    "_id_": 15425,
+                                                                                    "_id_": 15434,
                                                                                     "_type": "String",
                                                                                     "value_": "@drawable\/header"
                                                                                 }
