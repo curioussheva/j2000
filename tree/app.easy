@@ -1176,51 +1176,17 @@
                     }
                 },
                 "contentView": {
-                    "_id_": 12577,
-                    "_type": "LinearLayout",
+                    "_id_": 13628,
+                    "_type": "FragmentContainerView",
                     "id": {
-                        "_id_": 12578,
+                        "_id_": 13629,
                         "_type": "String",
-                        "value_": ""
+                        "value_": "content"
                     },
                     "views": {
-                        "_id_": 12579,
+                        "_id_": 13630,
                         "_type": "ViewList",
-                        "list_": [
-                            {
-                                "_id_": 12580,
-                                "_type": "ImageView",
-                                "id": {
-                                    "_id_": 12581,
-                                    "_type": "String",
-                                    "value_": ""
-                                },
-                                "android:layout_width": {
-                                    "_id_": 12582,
-                                    "_type": "View.SpecialDimension",
-                                    "value_": "wrap_content"
-                                },
-                                "android:layout_height": {
-                                    "_id_": 12583,
-                                    "_type": "View.SpecialDimension",
-                                    "value_": "wrap_content"
-                                },
-                                "android:scaleType": {
-                                    "_id_": 12584,
-                                    "_type": "ImageView.ScaleType",
-                                    "value_": "fitXY"
-                                },
-                                "android:src": {
-                                    "_id_": 12585,
-                                    "_type": "DrawableReference",
-                                    "ref": {
-                                        "_id_": 12586,
-                                        "_type": "String",
-                                        "value_": "@drawable\/keris_jawa_24"
-                                    }
-                                }
-                            }
-                        ]
+                        "list_": []
                     }
                 },
                 "background": {
