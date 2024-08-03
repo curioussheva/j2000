@@ -789,17 +789,26 @@
                     }
                 },
                 "contentView": {
-                    "_id_": 13628,
-                    "_type": "FragmentContainerView",
+                    "_id_": 16939,
+                    "_type": "AdMob.AdView",
                     "id": {
-                        "_id_": 13629,
+                        "_id_": 16947,
                         "_type": "String",
-                        "value_": "content"
+                        "value_": ""
                     },
-                    "views": {
-                        "_id_": 13630,
-                        "_type": "ViewList",
-                        "list_": []
+                    "adUnit": {
+                        "_id_": 16941,
+                        "_type": "AdMob.AdUnitReference",
+                        "name": {
+                            "_id_": 16943,
+                            "_type": "String",
+                            "value_": "ad2"
+                        }
+                    },
+                    "adSize": {
+                        "_id_": 16945,
+                        "_type": "AdMob.AdSize",
+                        "value_": "BANNER"
                     }
                 },
                 "name": {
