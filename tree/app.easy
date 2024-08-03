@@ -636,12 +636,16 @@
                                                         "_id_": 3210,
                                                         "_type": "Menu.Item",
                                                         "icon": {
-                                                            "_id_": 13631,
-                                                            "_type": "DrawableReference",
-                                                            "ref": {
-                                                                "_id_": 13632,
-                                                                "_type": "String",
-                                                                "value_": "@drawable\/home"
+                                                            "_id_": 14055,
+                                                            "_type": "BitmapDrawable",
+                                                            "drawable": {
+                                                                "_id_": 14057,
+                                                                "_type": "DrawableReference",
+                                                                "ref": {
+                                                                    "_id_": 14059,
+                                                                    "_type": "String",
+                                                                    "value_": "@drawable\/header"
+                                                                }
                                                             }
                                                         },
                                                         "title": {
