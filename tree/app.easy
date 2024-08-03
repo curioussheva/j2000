@@ -801,11 +801,7 @@
                 },
                 "fullScreen": {
                     "_id_": 92,
-                    "_type": "Activity.FullScreen",
-                    "hideNavigation": {
-                        "_id_": 93,
-                        "_type": "Activity.HideNavigation"
-                    }
+                    "_type": "Activity.FullScreen"
                 },
                 "contentView": {
                     "_id_": 17697,
