@@ -769,7 +769,26 @@
                 "features": {
                     "_id_": 89,
                     "_type": "Activity.Features",
-                    "list_": []
+                    "list_": [
+                        {
+                            "_id_": 17705,
+                            "_type": "AdMob.InterstitialAd",
+                            "adUnit": {
+                                "_id_": 17707,
+                                "_type": "AdMob.AdUnitReference",
+                                "name": {
+                                    "_id_": 17712,
+                                    "_type": "String",
+                                    "value_": "ad2"
+                                }
+                            },
+                            "name": {
+                                "_id_": 17711,
+                                "_type": "String",
+                                "value_": ""
+                            }
+                        }
+                    ]
                 },
                 "screenOrientation": {
                     "_id_": 90,
